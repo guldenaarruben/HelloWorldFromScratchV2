@@ -4,6 +4,24 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+import static nl.example.ocaexcersises.OcaExcersises.oca_increment_and_decrement_operators;
+
+
+/*  Guide:
+
+    Use JDK 12.0.2
+
+    Included in GIT:
+        /.idea/encodings.xml
+        /.idea/misc.xml
+        /.idea/modules.xml
+        /.iea/vcs.xml
+        .gitignore
+        ==> contains:
+            /.idea => everything is left out when not explicit added.
+            /out
+*/
+
 public class HelloWorldFromScratchV2 {
 
     public static final String ANSI_RESET = "\u001B[0m";
@@ -107,7 +125,7 @@ public class HelloWorldFromScratchV2 {
 
 // extra comment test svn
 
-        //oca_increment_and_decrement_operators();
+        oca_increment_and_decrement_operators();
         //while_end_of_short();
         for_each_test();
         understanding_advanced_flow_control();
@@ -117,41 +135,41 @@ public class HelloWorldFromScratchV2 {
         oca_ArraysList();
     }
 
-    public static void oca_increment_and_decrement_operators() {
-        // page 58 , 59
-        System.out.println ("OCA: Modulo");
-        System.out.println ("OCA: Modulo: 11%3 ");
-        System.out.println ( 11 %3);
-        System.out.println ("OCA: Modulo: -11%3 ");
-        System.out.println ( -11 %3);
-
-
-        int x = 3;
-        System.out.println ("x= "+ x);
-        int a= ++x;
-        System.out.println ("x= "+ x);
-        System.out.println ("a=++x= "+a);
-        System.out.println ("x= "+ x);
-        int b = x--;
-        System.out.println ("x= "+ x);
-        System.out.println ("b=x--= "+b);
-        System.out.println ("x= "+ x);
-        int c = --x;
-        System.out.println ("x= "+ x);
-        System.out.println ("c=--x= "+c);
-        System.out.println ("x= "+ x);
-
-        System.out.println ("--x= "+c);
-        System.out.println ("x= "+ x);
-
-        x = 3;
-        int y = ++x * 5 / x-- + --x;
-
-        System.out.println ("x= "+ x);
-        System.out.println ("y= "+ y);
-
-
-    }
+//    public static void oca_increment_and_decrement_operators() {
+//        // page 58 , 59
+//        System.out.println ("OCA: Modulo");
+//        System.out.println ("OCA: Modulo: 11%3 ");
+//        System.out.println ( 11 %3);
+//        System.out.println ("OCA: Modulo: -11%3 ");
+//        System.out.println ( -11 %3);
+//
+//
+//        int x = 3;
+//        System.out.println ("x= "+ x);
+//        int a= ++x;
+//        System.out.println ("x= "+ x);
+//        System.out.println ("a=++x= "+a);
+//        System.out.println ("x= "+ x);
+//        int b = x--;
+//        System.out.println ("x= "+ x);
+//        System.out.println ("b=x--= "+b);
+//        System.out.println ("x= "+ x);
+//        int c = --x;
+//        System.out.println ("x= "+ x);
+//        System.out.println ("c=--x= "+c);
+//        System.out.println ("x= "+ x);
+//
+//        System.out.println ("--x= "+c);
+//        System.out.println ("x= "+ x);
+//
+//        x = 3;
+//        int y = ++x * 5 / x-- + --x;
+//
+//        System.out.println ("x= "+ x);
+//        System.out.println ("y= "+ y);
+//
+//
+//    }
 
     public static void while_end_of_short (){
         short teller = 0;
