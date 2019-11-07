@@ -17,19 +17,31 @@ import static nl.example.ocaexcersises.OcaExcersises.*;
         /.idea/modules.xml
         /.iea/vcs.xml
         .gitignore
+            /out    * will be generated
+            /.idea  * initially excluded, add explicit files which should be commited to git
         ==> contains:
             /.idea => everything is left out when not explicit added.
             /out
 
         20191107-001; Created artifact configuration for the JAR
                 (https://www.jetbrains.com/help/idea/creating-and-running-your-first-java-application.html)
-                1)From the main menu, select File | Project Structure Ctrl+Shift+Alt+S and click Artifacts.
-                2)Click the Add button, point to JAR and select From modules with dependencies.
-                3)To the right of the Main Class field, click the Browse button and select HelloWorld (com.example.helloworld) in the dialog that opens.
-                4)IntelliJ IDEA creates the artifact configuration and shows its settings in the right-hand part of the Project Structure dialog.
-                5)Apply the changes and close the dialog.
+                1) From the main menu, select File | Project Structure Ctrl+Shift+Alt+S and click Artifacts.
+                2) Click the Add button, point to JAR and select From modules with dependencies.
+                3) To the right of the Main Class field, click the Browse button and select HelloWorld (com.example.helloworld) in the dialog that opens.
+                4) IntelliJ IDEA creates the artifact configuration and shows its settings in the right-hand part of the Project Structure dialog.
+                5) Apply the changes and close the dialog.
 
+                #Build the JAR artifact﻿
+                1) From the main menu, select Build | Build Artifacts.
+                2) Point to HelloWorld:jar and select Build.
+                3) If you now look at the out/artifacts folder, you'll find your JAR there.
 
+                # Create a run configuration for the packaged application
+                1) Press Ctrl+Shift+A, find and run the Edit Configurations action.
+                2) In the Run/Debug Configurations dialog, click the Add button and select JAR Application.
+                3) Name the new configuration: HelloWorldJar.
+                4) In the Path to JAR field, click the Browse button and specify the path to the JAR file on your computer.
+                5) Under Before launch, click the Add button, select Build Artifacts | HelloWorld:jar in the dialog that opens.
 */
 
 public class HelloWorldFromScratchV2 {
