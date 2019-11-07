@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="HelloWorldFromScratchV2Class" type="Application" factoryName="Application">
+  <configuration default="false" name="HelloWorldFromScratchV2.class(main)" type="Application" factoryName="Application">
     <option name="MAIN_CLASS_NAME" value="com.example.helloworldfromscratchv2.HelloWorldFromScratchV2" />
     <module name="HelloWorldFromScratchv2" />
     <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />

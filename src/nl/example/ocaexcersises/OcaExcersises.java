@@ -21,7 +21,13 @@ public class OcaExcersises {
     public static final String ANSI_WHITE = "\u001B[37m";
 
     public static void oca_increment_and_decrement_operators() {
-        // page 58 , 59
+        // Increment and decrement operators.
+        System.out.println("\n\n");
+        System.out.println("*************************************************************************");
+        System.out.println("oca_increment_and_decrement_operators: Increment and decrement operators.");
+        System.out.println("*************************************************************************");
+
+        // OCA: page 58 , 59
         System.out.println ("OCA: Modulo");
         System.out.println ("OCA: Modulo: 11%3 ");
         System.out.println ( 11 %3);
@@ -58,12 +64,18 @@ public class OcaExcersises {
 
 
     public static void while_end_of_short (){
+        // While: end of short.
+        System.out.println("\n\n");
+        System.out.println("****************************************");
+        System.out.println("while_end_of_short: While: end of short.");
+        System.out.println("****************************************");
+
         short teller = 0;
         int telNul =0;
         int overflow=0;
         int telSwitchSign=0;
 
-        // bij bewekren wordt shot naar int gecast en kan dus tot 32767
+        // bij bewerken wordt short naar int gecast en kan dus tot 32767
         while (telNul < 2 && overflow < 33000)
         {
             System.out.println("Teller: "+teller);
@@ -94,6 +106,12 @@ public class OcaExcersises {
 
 
     public static void for_each_test () {
+        // Flow control: for each.
+        System.out.println("\n\n");
+        System.out.println("****************************************");
+        System.out.println("for_each_test: Flow control: for each.  ");
+        System.out.println("****************************************");
+
         final String [] names = new String[3];
         names[0] = "Lisa";
         names[1] = "Kevin";
@@ -129,6 +147,12 @@ public class OcaExcersises {
     }
 
     public static void understanding_advanced_flow_control(){
+        // Advanced flow control.
+        System.out.println("\n\n");
+        System.out.println("*********************************************************************");
+        System.out.println("oca_Searunderstanding_advanced_flow_control: Advanced flow control.  ");
+        System.out.println("*********************************************************************");
+
 
         int [][] myComplexArray = {{5,2,1,3},{3,9,8,9},{5,7,12,7}};
 
@@ -142,6 +166,12 @@ public class OcaExcersises {
     }
 
     public static void oca_SearchSample () {
+        // Search with loop.
+        System.out.println("\n\n");
+        System.out.println("*************************************");
+        System.out.println("oca_SearchSample: Search with loop.  ");
+        System.out.println("*************************************");
+
         // int [][] list  = {{5,2,1,3},{3,9,8,9},{5,7,12,7}};
         int [][] list  = {{1,13,5},{1,2,5},{2,7,2}};
         int searchValue = 2;
@@ -310,6 +340,11 @@ public class OcaExcersises {
 
 
     public static void oca_Strings () {
+        // Strings
+        System.out.println("\n\n");
+        System.out.println("*************************************");
+        System.out.println("oca_Strings: Strings Stringbuilder.  ");
+        System.out.println("*************************************");
 
         StringBuilder sb = new StringBuilder("animals");
         String sub = sb.substring(sb.indexOf("a"), sb.indexOf("al"));
@@ -323,7 +358,11 @@ public class OcaExcersises {
     }
 
     public static void oca_Arrays() {
-
+        //Arrays
+        System.out.println("\n\n");
+        System.out.println("*************************************");
+        System.out.println("oca_Arrays: Arrays.                  ");
+        System.out.println("*************************************");
         //int[] numbers = {2,4,6,8};
         int[] numbers = {12,2,4,19,6,8};
 
@@ -372,6 +411,12 @@ public class OcaExcersises {
 
 
     public static void oca_ArraysList() {
+        //ArrayList and List
+        System.out.println("\n\n");
+        System.out.println("*************************************");
+        System.out.println("oca_ArraysList: ArrayList and List.  ");
+        System.out.println("*************************************");
+
         List<String> birds = new ArrayList<>();
         birds.add("Hawk");
         birds.add(1,"Robin");
@@ -423,7 +468,10 @@ public class OcaExcersises {
 
     public static void oca_dateTime(){
         //Manipulating date time
-        System.out.println("Manipulating date time.");
+        System.out.println("\n\n");
+        System.out.println("*************************************");
+        System.out.println("oca_dateTime: Manipulating date time.");
+        System.out.println("*************************************");
         LocalDate date = LocalDate.of(2020, Month.JANUARY, 20);
         LocalTime time = LocalTime.of(5,15);
         LocalDateTime dateTime = LocalDateTime.of(date, time);

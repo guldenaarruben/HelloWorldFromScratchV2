@@ -14,7 +14,66 @@ import static nl.example.ocaexcersises.OcaExcersises.*;
     GIT: tutorial: youtube: 'Git & GitHub Tutorial for Beginners #' (#1 / ##12)  #1 => https://www.youtube.com/watch?v=3RjQznt-8kE
     Use JDK 12.0.2
 
-    Short explanation;
+    SETUP JAVA:
+
+        //
+        // --------- setup your java/intellij/maven/subversion local environment
+        // 1) installed the JDK
+        // 2) create directory structure
+        //    *  c:\DEV\
+        //    *  C:\DEV\maven\apache-maven-3.6.1    // is installation of maven; on installation "apache-maven-x.x.x" is being created
+        //    *  C:\DEV\maven\repo                  // local repo
+        //    *  C:\DEV\SVNRepository               // going to be used for local subversion repo
+        //    *  C:\DEV\Workspace\Trunk             // map for creating projectmaps like 'HelloWorldFromScratch' and checkout specific project from VCS( eg subversion)
+        //    *  C:\DEV\Workspace\Branch            // map for creating projectmaps like 'HelloWorldFromScratch' and checkout specific project from VCS( eg subversion)
+        //
+        // 3) install maven in "C:\DEV\maven\apache-maven-3.6.1"
+        // 4) install TortoiseSVN
+        // 5a) add Windows environment variables
+        //      create "windows: environment variables" \\ if it is not found, it can be a different version of windows 10 (pro or something), or it can be disabled by the system admin
+        //      Windows 10 \ 'Start' \ Settings \ System Info \ Advanced Settings \ Environment variables
+        //      * JAVA_HOME     = "C:\Program Files\Java\jdk-12.0.2"  // insert without quotes ; location where JDK is installed during step 1//value can be updated to newer version locations.
+        //      * M2_HOME       = "C:\DEV\maven\apache-maven-3.6.1"
+        //      * MAVEN_HOME    = "C:\DEV\maven\apache-maven-3.6.1"
+        // 5b) add to your path:
+        //      * "%JAVA_HOME%\bin"                     // without quotes
+        //      * "%M2_HOME%\bin"                       // without quotes
+        //      * "C:\Program Files\TortoiseSVN\bin"    // without quotes // location where SVN is installed during step 4
+        // 6) create local SVN repository
+        //      A) file explorer
+        //      B) go to map "C:\DEV"
+        //      C) select the previous by you created (step2) map "SVNRepository"
+        //      D) mouse-right-button \ pop-up \ TortoiseSVN \ Create repository here  ==> this map is made to a SVN repository
+        // 7a) Intellij environment
+        //      A) maven settings
+        //          * CTRL-SHIFT-A :"maven settings" or "File \ Settings \ Build, Execution, Deployment \ Build tools \ Maven"
+        //              * "Maven home directory": "C:/DEV/maven/apache-maven-3.6.1"
+        //              * "User setting file": "C:\DEV\maven\apache-maven-3.6.1\conf\settings.xml"      // see settings.xml for configs
+        //              * "Local repository": "C:\DEV\maven\repo"
+        //  7b) Intellij plugins: File \ Settings\ Plugin
+        //          * if no plugins are displayed, there is probably no connection to internet.
+        //          * if you are behind a proxy, add the proxy; "plugins \ tab 'service'-button "
+        //          * if you have added a proxy and it still does not work. You can try to creat an px-proxy. Configure the proxy in the px.proxy, and px.proxy in intellij \ plugin \ proxy settting
+        //          * in case youo want to work with cucumber:
+        //              A) add: plugin gherking
+        //              B) add: plugin cucumber for java
+        //
+        // 8) settings.xml
+        //  * location: "C:\DEV\maven\apache-maven-3.6.1\conf\settings.xml"
+        //      A) <localRepository>C:\DEV\Maven\repo\</localRepository>
+        //      B) add proxy if you are behind a proxy. (if e.g. the maven repository (on internet) can't be reached)
+        //
+        //  misc 1: change repository url, but same repository: //OBSOLETE // USED FOR SUBVERSION // NOW USING GIT
+        //  a) go to project dir
+        //  b) svn relocate old_location new_location
+        //  c) svn relocate svn://192.168.178.17/HelloWorldFromScratch/Trunk svn://127.0.0.1/HelloWorldFromScratch/Trunk
+        //  d) check \project\.idea\misx.xml => check urls; change if required; i have done this before step c. But probably step 'c' takes care of that.
+        //
+
+    FIRST APPLICATION:
+    // used: https://www.jetbrains.com/help/idea/creating-and-running-your-first-java-application.html
+
+    Short explanation PROJECT FILES;
     * /.idea/artifacts          => created from 'menu\file\projects structure\artifacts' by adding artifact; use $PROJECT_DIR$
                                 so it works if someone pulls it from remote repo to other machine having different base project dir.
                                 => goal: used for creating JAR package
@@ -22,9 +81,9 @@ import static nl.example.ocaexcersises.OcaExcersises.*;
                                 => dependency: required for: HelloWorldFromScratchV2Jar
 
     * /.idea/runConfiguration   => created from 'menu\run\edit configuration' by adding runconfigurations
-                                => HelloWorldFromScratchV2Class
+                                => HelloWorldFromScratchV2.class(main)
                                     => goal: runs the build class (compiled .java to .class)
-                                => HelloWorldFromScratchV2Jar
+                                => HelloWorldFromScratchV2.jar
                                     => goal: runs the build Jar   (package .compiled .java to .class put in JAR)
                                 => git: added to REPO/git, so by clone of project this is available
                                 => dependency: if this is included you can select in intellij the runConfiguration you want to run.
@@ -51,7 +110,8 @@ import static nl.example.ocaexcersises.OcaExcersises.*;
                                 => git: no added to REPO/git; is generated by intellij on built.
 
     * HelloWorldFromScratchv2.iml => contains project relevant information.
-                                => output url => this is added by specifying 'menu\file\projects structure\Modules tab 'Paths'' entering the path to output location.
+                                => output url => this is added by specifying 'menu\file\projects structure\Modules tab 'Paths''
+                                   entering the path to output location. [should be ABSOLUTE, don't use $PROJECT_DIR$ to create the path]
                                 => output-test url => this is added by specifying 'menu\file\projects structure\Modules tab 'Paths'' entering the path to test-output location.
                                 => content\sourceFolder url => this is added by specifying 'menu\file\projects structure\Modules' which folder contains the source(/src).
                                 => requires: modules.xml
@@ -111,74 +171,10 @@ public class HelloWorldFromScratchV2 {
     public static final String ANSI_CYAN = "\u001B[36m";
     public static final String ANSI_WHITE = "\u001B[37m";
 
-/*
     public static void main(String[] args) {
-        System.out.print("Hello World From Scratch V2 \n");
-        System.out.print("Added with sogeti laptop: Ruben \"Ruben (sog laptop)\"\n");
-
-    }
-*/
-
-    public static void main(String[] args) {
-
-
-
 
         System.out.println("test: HelloWorldFromScratch");
-        // used: https://www.jetbrains.com/help/idea/creating-and-running-your-first-java-application.html
-        //
-        // --------- setup your java/intellij/maven/subversion local environment
-        // 1) installed the JDK
-        // 2) create directory structure
-        //    *  c:\DEV\
-        //    *  C:\DEV\maven\apache-maven-3.6.1    // is installation of maven; on installation "apache-maven-x.x.x" is being created
-        //    *  C:\DEV\maven\repo                  // local repo
-        //    *  C:\DEV\SVNRepository               // going to be used for local subversion repo
-        //    *  C:\DEV\Workspace\Trunk             // map for creating projectmaps like 'HelloWorldFromScratch' and checkout specific project from VCS( eg subversion)
-        //    *  C:\DEV\Workspace\Branch            // map for creating projectmaps like 'HelloWorldFromScratch' and checkout specific project from VCS( eg subversion)
-        //
-        // 3) install maven in "C:\DEV\maven\apache-maven-3.6.1"
-        // 4) install TortoiseSVN
-        // 5a) add Windows environment variables
-        //      create "windows: environment variables" \\ if it is not found, it can be a different version of windows 10 (pro or something), or it can be disabled by the system admin
-        //      Windows 10 \ 'Start' \ Settings \ System Info \ Advanced Settings \ Environment variables
-        //      * JAVA_HOME     = "C:\Program Files\Java\jdk-12.0.2"  // insert without quotes ; location where JDK is installed during step 1//value can be updated to newer version locations.
-        //      * M2_HOME       = "C:\DEV\maven\apache-maven-3.6.1"
-        //      * MAVEN_HOME    = "C:\DEV\maven\apache-maven-3.6.1"
-        // 5b) add to your path:
-        //      * "%JAVA_HOME%\bin"                     // without quotes
-        //      * "%M2_HOME%\bin"                       // without quotes
-        //      * "C:\Program Files\TortoiseSVN\bin"    // without quotes // location where SVN is installed during step 4
-        // 6) create local SVN repository
-        //      A) file explorer
-        //      B) go to map "C:\DEV"
-        //      C) select the previous by you created (step2) map "SVNRepository"
-        //      D) mouse-right-button \ pop-up \ TortoiseSVN \ Create repository here  ==> this map is made to a SVN repository
-        // 7a) Intellij environment
-        //      A) maven settings
-        //          * CTRL-SHIFT-A :"maven settings" or "File \ Settings \ Build, Execution, Deployment \ Build tools \ Maven"
-        //              * "Maven home directory": "C:/DEV/maven/apache-maven-3.6.1"
-        //              * "User setting file": "C:\DEV\maven\apache-maven-3.6.1\conf\settings.xml"      // zie settings.xml voor configs
-        //              * "Local repository": "C:\DEV\maven\repo"
-        //  7b) Intellij plugins: File \ Settings\ Plugin
-        //          * if no plugins are displayed, there is probably no connection to internet.
-        //          * if you are behind a proxy, add the proxy; "plugins \ tab 'service'-button "
-        //          * if you have added a proxy and it still does not work. You can try to creat an px-proxy. Configure the proxy in the px.proxy, and px.proxy in intellij \ plugin \ proxy settting
-        //          * in case youo want to work with cucumber:
-        //              A) add: plugin gherking
-        //              B) add: plugin cucumber for java
-        //
-        // 8) settings.xml
-        //  * location: "C:\DEV\maven\apache-maven-3.6.1\conf\settings.xml"
-        //      A) <localRepository>C:\DEV\Maven\repo\</localRepository>
-        //      B) add proxy if you are behind a proxy. (if e.g. the maven repository (on internet) can't be reached)
-        //
-        //  misc 1: change repository url, but same repository:
-        //  a) go to project dir
-        //  b) svn relocate old_location new_location
-        //  c) svn relocate svn://192.168.178.17/HelloWorldFromScratch/Trunk svn://127.0.0.1/HelloWorldFromScratch/Trunk
-        //  d) chek \project\.idea\misx.xml => check urls; change if required; i have done this before step c. But probably step 'c' takes care of that.
-        //
+
 
         System.out.println("used: https://www.jetbrains.com/help/idea/creating-and-running-your-first-java-application.html");
 
