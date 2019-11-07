@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="HelloWorldFromScratchv2:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/HelloWorldFromScratchv2_jar</output-path>
+    <root id="archive" name="HelloWorldFromScratchv2.jar">
+      <element id="module-output" name="HelloWorldFromScratchv2" />
+    </root>
+  </artifact>
+</component>
