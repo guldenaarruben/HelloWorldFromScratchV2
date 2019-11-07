@@ -11,6 +11,9 @@ import static nl.example.ocaexcersises.OcaExcersises.*;
 
     Use JDK 12.0.2
 
+    Short explanation;
+    * /.idea/artifacts          => create from 'menu\file\projects structure\artifacts' by adding
+
     Included in GIT:
         /.idea/encodings.xml
         /.idea/misc.xml
@@ -18,7 +21,9 @@ import static nl.example.ocaexcersises.OcaExcersises.*;
         /.iea/vcs.xml
         .gitignore
             /out    * will be generated
-            /.idea  * initially excluded, add explicit files which should be commited to git
+            /.idea/vcs.xml
+            /.idea/workspace.xml
+
         ==> contains:
             /.idea => everything is left out when not explicit added.
             /out
