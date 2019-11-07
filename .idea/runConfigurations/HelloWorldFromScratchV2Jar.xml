@@ -1,7 +1,9 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="HelloWorldFromScratchV2Jar" type="JarApplication" factoryName="JAR Application">
     <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/HelloWorldFromScratchv2_jar/HelloWorldFromScratchv2.jar" />
-    <option name="WORKING_DIRECTORY" value="C:\Dev\Workspace\Trunk\test5v2\HelloWorldFromScratchv2" />
+    <!--<option name="WORKING_DIRECTORY" value="C:\Dev\Workspace\Trunk\test5v2\HelloWorldFromScratchv2" /> -->
+    <!-- Make path relative by useing $PROJECT_DIR$ which is equal to the working directory -->
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     <option name="ALTERNATIVE_JRE_PATH" />
     <method v="2">
       <option name="BuildArtifacts" enabled="true">
