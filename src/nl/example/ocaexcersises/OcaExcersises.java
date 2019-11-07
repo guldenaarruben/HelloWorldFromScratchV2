@@ -1,9 +1,6 @@
 package nl.example.ocaexcersises;
 
-import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.time.LocalTime;
-import java.time.Month;
+import java.time.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -477,6 +474,27 @@ public class OcaExcersises {
         LocalDateTime dateTime = LocalDateTime.of(date, time);
         System.out.println(dateTime);
 
+        oca_workingWithPeriods();
 
     }
+
+
+    public static void oca_workingWithPeriods() {
+        LocalDate start = LocalDate.of(2015, Month.JANUARY, 1);
+        LocalDate end = LocalDate.of(2015, Month.MARCH, 30);
+        //Period period = Period.ofMonths(1);
+        Period period = Period.ofWeeks(2);
+        oca_workingWithPeriods_performAnimalEnrichment(start, end, period);
+    }
+
+    public static void oca_workingWithPeriods_performAnimalEnrichment(LocalDate start, LocalDate end, Period period) {
+        LocalDate upTo = start;
+
+        while (upTo.isBefore(end)) {    // check if still before end
+            System.out.println("Give new toy: " + upTo);
+            upTo = upTo.plus(period);
+        }
+    }
+
+
 }
