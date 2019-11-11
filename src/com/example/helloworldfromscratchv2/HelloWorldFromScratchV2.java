@@ -208,6 +208,25 @@ public class HelloWorldFromScratchV2 {
         oca_ArraysList();
         oca_dateTime();
 
+        System.out.println("\n\n");
+        System.out.println("*************************************************************************");
+        System.out.println("call from diff package and diff class");
+        oca_accessModifierPublic();
+        // oca_accessModifierPrivate();
+        // when method made private; compiler gave error: Error:(215, 9) java: cannot find symbol
+        //  symbol:   method oca_accessModifierPrivate()
+        //  location: class com.example.helloworldfromscratchv2.HelloWorldFromScratchV2
+
+
+        //oca_accessModifierProtected();
+        // when method made from public to protected; compiler gave here an error: Error:(219, 9) java: cannot find symbol
+        //  symbol:   method oca_accessModifierProtected()
+        //  location: class com.example.helloworldfromscratchv2.HelloWorldFromScratchV2
+        System.out.println("\n\n");
+        System.out.println("***************************************************************");
+
+
+
     }
 
 
