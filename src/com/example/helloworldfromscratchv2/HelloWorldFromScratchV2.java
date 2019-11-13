@@ -1,10 +1,19 @@
 package com.example.helloworldfromscratchv2;
 
+import nl.oca.pond.swan.Swan;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+
 import static nl.example.ocaexcersises.OcaExcersises.*;
+import static nl.example.ocaexcersises.OcaExcersises2ndClassSamePackage.oca_access_test_samePackage_diffClass;
+import static nl.example.ocaexcersises.OcaexcersisesExtendOcaExcersises.*;
+
 
 
 /*
@@ -161,6 +170,8 @@ import static nl.example.ocaexcersises.OcaExcersises.*;
 
 public class HelloWorldFromScratchV2 {
 
+    static Logger log = LogManager.getLogger(HelloWorldFromScratchV2.class);
+
     public static final String ANSI_RESET = "\u001B[0m";
     public static final String ANSI_BLACK = "\u001B[30m";
     public static final String ANSI_RED = "\u001B[31m";
@@ -216,7 +227,11 @@ public class HelloWorldFromScratchV2 {
         // when method made private; compiler gave error: Error:(215, 9) java: cannot find symbol
         //  symbol:   method oca_accessModifierPrivate()
         //  location: class com.example.helloworldfromscratchv2.HelloWorldFromScratchV2
+        oca_access_test_samePackage_sameClass();
 
+        oca_access_test_samePackage_diffClass();
+
+        oca_extends_testsame_package();
 
         //oca_accessModifierProtected();
         // when method made from public to protected; compiler gave here an error: Error:(219, 9) java: cannot find symbol
@@ -224,6 +239,11 @@ public class HelloWorldFromScratchV2 {
         //  location: class com.example.helloworldfromscratchv2.HelloWorldFromScratchV2
         System.out.println("\n\n");
         System.out.println("***************************************************************");
+
+
+        Swan other = new Swan();
+        other.swim();
+        other.helpOtherBirdSwim();
 
 
 

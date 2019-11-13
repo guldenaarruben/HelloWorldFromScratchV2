@@ -15,12 +15,13 @@ public class OcaExcersises2ndClassSamePackage {
         System.out.println("\n\n");
         System.out.println("call from same package: different class");
         oca_accessModifierPublic();
-        // oca_accessModifierPrivate();
+        //oca_accessModifierPrivate();
         // when method changed to private, java compiler gave error.
         oca_accessModifierProtected();
         System.out.println("\n\n");
         System.out.println("***************************************************************");
     }
+
 
 
 }
