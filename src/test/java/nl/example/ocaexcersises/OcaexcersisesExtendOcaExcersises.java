@@ -3,11 +3,16 @@ package nl.example.ocaexcersises;
 //import static nl.example.ocaexcersises.OcaExcersises.*;
 
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 public class OcaexcersisesExtendOcaExcersises extends OcaExcersises {
 
+    static Logger log = LogManager.getLogger(OcaexcersisesExtendOcaExcersises.class);
 
     public static void oca_extends_testsame_package ()
     {
+        log.info("");
         // oca_extends_testsame_package: test accessible classes
         System.out.println("\n\n");
         System.out.println("***************************************************************");

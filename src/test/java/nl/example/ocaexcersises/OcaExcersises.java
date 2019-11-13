@@ -1,11 +1,16 @@
 package nl.example.ocaexcersises;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.time.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 public class OcaExcersises {
+
+    static Logger log = LogManager.getLogger(OcaExcersises.class);
 
     public static final String ANSI_RESET = "\u001B[0m";
     public static final String ANSI_BLACK = "\u001B[30m";
@@ -18,6 +23,7 @@ public class OcaExcersises {
     public static final String ANSI_WHITE = "\u001B[37m";
 
     public static void oca_increment_and_decrement_operators() {
+        log.info("");
         // Increment and decrement operators.
         System.out.println("\n\n");
         System.out.println("*************************************************************************");
@@ -61,6 +67,8 @@ public class OcaExcersises {
 
 
     public static void while_end_of_short() {
+
+        log.info("");
         // While: end of short.
         System.out.println("\n\n");
         System.out.println("****************************************");
@@ -102,6 +110,8 @@ public class OcaExcersises {
 
 
     public static void for_each_test() {
+
+        log.info("");
         // Flow control: for each.
         System.out.println("\n\n");
         System.out.println("****************************************");
@@ -139,6 +149,8 @@ public class OcaExcersises {
     }
 
     public static void understanding_advanced_flow_control() {
+
+        log.info("");
         // Advanced flow control.
         System.out.println("\n\n");
         System.out.println("*********************************************************************");
@@ -158,6 +170,8 @@ public class OcaExcersises {
     }
 
     public static void oca_SearchSample() {
+
+        log.info("");
         // Search with loop.
         System.out.println("\n\n");
         System.out.println("*************************************");
@@ -335,6 +349,8 @@ public class OcaExcersises {
 
 
     public static void oca_Strings() {
+
+        log.info("");
         // Strings
         System.out.println("\n\n");
         System.out.println("*************************************");
@@ -366,6 +382,8 @@ public class OcaExcersises {
     }
 
     public static void oca_Arrays() {
+
+        log.info("");
         //Arrays
         System.out.println("\n\n");
         System.out.println("*************************************");
@@ -418,6 +436,8 @@ public class OcaExcersises {
 
 
     public static void oca_ArraysList() {
+
+        log.info("");
         //ArrayList and List
         System.out.println("\n\n");
         System.out.println("*************************************");
@@ -483,6 +503,8 @@ public class OcaExcersises {
 
 
     public static void oca_dateTime() {
+
+        log.info("");
         //Manipulating date time
         System.out.println("\n\n");
         System.out.println("*************************************");
@@ -499,6 +521,8 @@ public class OcaExcersises {
 
 
     public static void oca_workingWithPeriods() {
+
+        log.info("");
         LocalDate start = LocalDate.of(2015, Month.JANUARY, 1);
         LocalDate end = LocalDate.of(2015, Month.MARCH, 30);
         //Period period = Period.ofMonths(1);
@@ -507,6 +531,8 @@ public class OcaExcersises {
     }
 
     public static void oca_workingWithPeriods_performAnimalEnrichment(LocalDate start, LocalDate end, Period period) {
+
+        log.info("");
         LocalDate upTo = start;
 
         while (upTo.isBefore(end)) {    // check if still before end
@@ -516,6 +542,8 @@ public class OcaExcersises {
     }
 
     public static void oca_accessModifierPublic() {
+
+        log.info("");
         // oca_accessModifierPublic: accessible from any class.
         System.out.println("\n\n");
         System.out.println("*****************************************************");
@@ -525,6 +553,8 @@ public class OcaExcersises {
     }
 
     private static void oca_accessModifierPrivate() {
+
+        log.info("");
         // oca_accessModifierPrivate: accessible from this class.
         System.out.println("\n\n");
         System.out.println("******************************************************");
@@ -535,6 +565,8 @@ public class OcaExcersises {
 
 
     protected static void oca_accessModifierProtected() {
+
+        log.info("");
         // oca_accessModifierProtected: accessible from classes in the same package.
         System.out.println("\n\n");
         System.out.println("*************************************************************************");
@@ -545,6 +577,7 @@ public class OcaExcersises {
 
     public static void oca_access_test_samePackage_sameClass() {
 
+        log.info("");
         System.out.println("\n\n");
         System.out.println("*************************************************************************");
         System.out.println("call from same package and same class");

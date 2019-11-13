@@ -172,6 +172,7 @@ public class HelloWorldFromScratchV2 {
 
     static Logger log = LogManager.getLogger(HelloWorldFromScratchV2.class);
 
+
     public static final String ANSI_RESET = "\u001B[0m";
     public static final String ANSI_BLACK = "\u001B[30m";
     public static final String ANSI_RED = "\u001B[31m";
@@ -184,6 +185,7 @@ public class HelloWorldFromScratchV2 {
 
     public static void main(String[] args) {
 
+        log.info("Main");
         System.out.println("test: HelloWorldFromScratch");
 
 
