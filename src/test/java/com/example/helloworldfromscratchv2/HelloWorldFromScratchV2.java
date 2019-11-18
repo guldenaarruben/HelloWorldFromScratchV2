@@ -166,6 +166,10 @@ import static nl.example.ocaexcersises.OcaexcersisesExtendOcaExcersises.*;
                 3) Name the new configuration: HelloWorldJar.
                 4) In the Path to JAR field, click the Browse button and specify the path to the JAR file on your computer.
                 5) Under Before launch, click the Add button, select Build Artifacts | HelloWorld:jar in the dialog that opens.
+
+
+                MAVEN: youtube: "Maven Tutorial for Beginners 1", etc
+
 */
 
 public class HelloWorldFromScratchV2 {
