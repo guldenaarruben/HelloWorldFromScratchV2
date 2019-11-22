@@ -5,9 +5,9 @@ import org.apache.logging.log4j.Logger;
 
 import static nl.example.ocaexcersises.OcaExcersises.*;
 
-public class OcaExcersises2ndClassSamePackage {
+public class OcaExercises2ndClassSamePackage {
 
-    static Logger log = LogManager.getLogger(OcaExcersises2ndClassSamePackage.class);
+    static Logger log = LogManager.getLogger(OcaExercises2ndClassSamePackage.class);
 
     public static void oca_access_test_samePackage_diffClass() {
 

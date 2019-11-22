@@ -2,16 +2,12 @@ package com.example.helloworldfromscratchv2;
 
 import nl.oca.pond.swan.Swan;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 
 import static nl.example.ocaexcersises.OcaExcersises.*;
-import static nl.example.ocaexcersises.OcaExcersises2ndClassSamePackage.oca_access_test_samePackage_diffClass;
+import static nl.example.ocaexcersises.OcaExercises2ndClassSamePackage.oca_access_test_samePackage_diffClass;
 import static nl.example.ocaexcersises.OcaexcersisesExtendOcaExcersises.*;
 
 
