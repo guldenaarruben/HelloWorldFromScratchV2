@@ -1,0 +1,446 @@
+<profile appVersion="1.0" appName="TestBasisInrichtingPS">
+	<entity instancename="GrondslagDefinitie3" instanceid="3f95f39a-3986-453c-986d-7a13967580a5" name="GrondslagDefinitie" entityguid="grondslagdefinitie">
+		<attribute name="GrondslagDefinitie.Omschrijving" source="USER">C2_G1_oms1</attribute>
+		<attribute name="GrondslagDefinitie.EenheidReferentieId" source="USER">20</attribute>
+		<attribute name="GrondslagDefinitie.Categorie" source="USER">Cat niet verplicht1</attribute>
+		<attribute name="GrondslagDefinitie.IsGrondslagDefinitieVanComponent" source="USER">Component|0a3b90c6-def8-4a78-bcb8-27dc2825abaa|Component0</attribute>
+		<attribute name="GrondslagDefinitie.GebruiktBijGrondslag" source="USER"/>
+		<attribute name="GrondslagDefinitie.FinancieelBedragPerEenheid" source="USER">1.0</attribute>
+		<attribute name="GrondslagDefinitie.GrondslagCode" source="USER">C2_G1</attribute>
+		<attribute name="GrondslagDefinitie.IndicatieVerplicht" source="USER">J</attribute>
+		<attribute name="GrondslagDefinitie.DecimalenNauwkeurigheid" source="USER">1</attribute>
+		<attribute name="GrondslagDefinitie.IndicatieAanTeVragen" source="USER">N</attribute>
+		<attribute name="GrondslagDefinitie.HeeftGrondslagDefinitieCriteria" source="USER">
+			<value>GrondslagDefinitieCriterium|eadad676-e624-4f9e-be7f-2944583b075c|GrondslagDefinitieCriterium5</value>
+		</attribute>
+	</entity>
+	<entity instancename="GrondslagDefinitie6" instanceid="ab091bc7-74a7-4c46-af6e-c556caeafff5" name="GrondslagDefinitie" entityguid="grondslagdefinitie">
+		<attribute name="GrondslagDefinitie.Omschrijving" source="USER">C2_G2_oms</attribute>
+		<attribute name="GrondslagDefinitie.EenheidReferentieId" source="USER">20</attribute>
+		<attribute name="GrondslagDefinitie.Categorie" source="USER">cat verplicht</attribute>
+		<attribute name="GrondslagDefinitie.IsGrondslagDefinitieVanComponent" source="USER">Component|0a3b90c6-def8-4a78-bcb8-27dc2825abaa|Component0</attribute>
+		<attribute name="GrondslagDefinitie.FinancieelBedragPerEenheid" source="USER">1.0</attribute>
+		<attribute name="GrondslagDefinitie.GrondslagCode" source="USER">C2_G2</attribute>
+		<attribute name="GrondslagDefinitie.IndicatieVerplicht" source="USER">J</attribute>
+		<attribute name="GrondslagDefinitie.DecimalenNauwkeurigheid" source="USER">0</attribute>
+		<attribute name="GrondslagDefinitie.IndicatieAanTeVragen" source="USER">J</attribute>
+		<attribute name="GrondslagDefinitie.HeeftGrondslagDefinitieCriteria" source="USER">
+			<value>GrondslagDefinitieCriterium|ae8eb22b-e13f-410e-8632-f72a52a94e97|GrondslagDefinitieCriterium8</value>
+		</attribute>
+	</entity>
+	<entity instancename="3a36fc32-73b5-42fb-98ac-81fc31f77d5e" instanceid="3a36fc32-73b5-42fb-98ac-81fc31f77d5e" name="Betrokkene" entityguid="betrokkene">
+		<attribute name="Betrokkene.IsBetrokkeneVanBetrokkeneVerzoek" source="USER">BetrokkeneVerzoek|04ec303c-7c0c-4c38-b682-c64df3a56f23|04ec303c-7c0c-4c38-b682-c64df3a56f23</attribute>
+		<attribute name="Betrokkene.RelatieBank" source="USER">10</attribute>
+		<attribute name="Betrokkene.HeeftBetrokkeneRollen" source="USER">
+			<value>BetrokkeneRol|49437b42-be70-4c3d-a776-42c4a92e6a11|49437b42-be70-4c3d-a776-42c4a92e6a11</value>
+		</attribute>
+		<attribute name="Betrokkene.IsNatuurlijkPersoon" source="USER">NatuurlijkPersoon|55e1fbe0-47c6-47bc-b5f9-6cda03651494|55e1fbe0-47c6-47bc-b5f9-6cda03651494</attribute>
+		<attribute name="Betrokkene.HeeftTelefoonNummers" source="USER">
+			<value>TelefoonNummer|94333b93-ca9a-4ecf-9606-a2aeb7f1377d|</value>
+		</attribute>
+		<attribute name="Betrokkene.RelatieNummer" source="USER">10000064</attribute>
+		<attribute name="Betrokkene.HeeftBetrokkeneRekeningen" source="USER">
+			<value>BetrokkeneRekening|b9d881bb-68c0-4e08-8b7b-c7cf5669806e|</value>
+		</attribute>
+	</entity>
+	<entity instancename="GrondslagDefinitieCriterium5" instanceid="eadad676-e624-4f9e-be7f-2944583b075c" name="GrondslagDefinitieCriterium" entityguid="grondslagdefinitiecriterium">
+		<attribute name="GrondslagDefinitieCriterium.VolgnummerInBerekening" source="USER">43</attribute>
+		<attribute name="GrondslagDefinitieCriterium.CriteriumCode" source="USER">FACTUUR</attribute>
+		<attribute name="GrondslagDefinitieCriterium.AntwoordDatatype" source="USER">ALFA</attribute>
+		<attribute name="GrondslagDefinitieCriterium.DocumentDefinitieCode" source="USER">CODE_ABC</attribute>
+		<attribute name="GrondslagDefinitieCriterium.Toetswaarde" source="USER">37</attribute>
+		<attribute name="GrondslagDefinitieCriterium.IsGrondslagDefnitieCriteriumVanGrondslagDefinitie" source="USER">GrondslagDefinitie|3f95f39a-3986-453c-986d-7a13967580a5|GrondslagDefinitie3</attribute>
+		<attribute name="GrondslagDefinitieCriterium.CriteriumToelichting" source="USER">Er dient een factuur aanwezig te zijn, waarin het bewijs te vinden is van de gedane investering32</attribute>
+		<attribute name="GrondslagDefinitieCriterium.IndicatieOordeelMuteerbaar" source="USER">J</attribute>
+		<attribute name="GrondslagDefinitieCriterium.IndicatieGeldig" source="USER">J</attribute>
+		<attribute name="GrondslagDefinitieCriterium.CriteriumNaam" source="USER">Factuur aanwezigja</attribute>
+		<attribute name="GrondslagDefinitieCriterium.GebruiktIn" source="USER"/>
+		<attribute name="GrondslagDefinitieCriterium.SoortCriteriumReferentieId" source="USER">60</attribute>
+		<attribute name="GrondslagDefinitieCriterium.ComponentCriteriumCode" source="USER">FACTUUR</attribute>
+		<attribute name="GrondslagDefinitieCriterium.Vraag" source="USER">Heeft u een factuur als bewijs voor deze grondslag33</attribute>
+	</entity>
+	<entity instancename="GrondslagDefinitieCriterium8" instanceid="ae8eb22b-e13f-410e-8632-f72a52a94e97" name="GrondslagDefinitieCriterium" entityguid="grondslagdefinitiecriterium">
+		<attribute name="GrondslagDefinitieCriterium.VolgnummerInBerekening" source="USER">7</attribute>
+		<attribute name="GrondslagDefinitieCriterium.CriteriumCode" source="USER">FACTUUR</attribute>
+		<attribute name="GrondslagDefinitieCriterium.AntwoordDatatype" source="USER">ALFA</attribute>
+		<attribute name="GrondslagDefinitieCriterium.DocumentDefinitieCode" source="USER">7171-2</attribute>
+		<attribute name="GrondslagDefinitieCriterium.IsGrondslagDefnitieCriteriumVanGrondslagDefinitie" source="USER">GrondslagDefinitie|ab091bc7-74a7-4c46-af6e-c556caeafff5|GrondslagDefinitie6</attribute>
+		<attribute name="GrondslagDefinitieCriterium.CriteriumToelichting" source="USER">Er dient een factuur aanwezig te zijn, waarin het bewijs te vinden is van de gedane investering</attribute>
+		<attribute name="GrondslagDefinitieCriterium.IndicatieOordeelMuteerbaar" source="USER">J</attribute>
+		<attribute name="GrondslagDefinitieCriterium.IndicatieGeldig" source="USER">J</attribute>
+		<attribute name="GrondslagDefinitieCriterium.CriteriumNaam" source="USER">Factuur aanwezig</attribute>
+		<attribute name="GrondslagDefinitieCriterium.SoortCriteriumReferentieId" source="USER">60</attribute>
+		<attribute name="GrondslagDefinitieCriterium.ComponentCriteriumCode" source="USER">FACTUUR</attribute>
+		<attribute name="GrondslagDefinitieCriterium.Vraag" source="USER">Heeft u een factuur als bewijs voor deze grondslag</attribute>
+	</entity>
+	<entity instancename="7cfbe1d0-fada-4ed6-b6e4-a0437fdc445a" instanceid="7cfbe1d0-fada-4ed6-b6e4-a0437fdc445a" name="PostAdres" entityguid="postadres">
+		<attribute name="PostAdres.DatumIngang" source="USER">1953-10-19</attribute>
+		<attribute name="PostAdres.IsPostAdresVanNatuurlijkPersoon" source="USER">NatuurlijkPersoon|55e1fbe0-47c6-47bc-b5f9-6cda03651494|55e1fbe0-47c6-47bc-b5f9-6cda03651494</attribute>
+		<attribute name="PostAdres.KixCode" source="USER">9951TD1</attribute>
+		<attribute name="PostAdres.Adresregel2" source="USER">9951 TD Plaats_8193460</attribute>
+		<attribute name="PostAdres.Adresregel1" source="USER">Straat_2634116 1</attribute>
+	</entity>
+	<entity instancename="f09aba3a-cb25-43b7-9c30-2164d6aba195" instanceid="f09aba3a-cb25-43b7-9c30-2164d6aba195" name="DienstParameter" entityguid="dienstparameter">
+		<attribute name="DienstParameter.HoortBijDienst" source="USER">Dienst|4521fb9d-02c9-40bc-be71-1c4c4244d417|</attribute>
+		<attribute name="DienstParameter.Waarde" source="USER">N</attribute>
+		<attribute name="DienstParameter.Naam" source="USER">SysIntKoppelvlakeDocs</attribute>
+	</entity>
+	<entity instancename="0fef0e3b-514b-4d51-b478-cdd5f9c642c2" instanceid="0fef0e3b-514b-4d51-b478-cdd5f9c642c2" name="DienstParameter" entityguid="dienstparameter">
+		<attribute name="DienstParameter.HoortBijDienst" source="USER">Dienst|4521fb9d-02c9-40bc-be71-1c4c4244d417|</attribute>
+		<attribute name="DienstParameter.Waarde" source="USER">N</attribute>
+		<attribute name="DienstParameter.Naam" source="USER">SysIntKoppelvlakNotificatie</attribute>
+	</entity>
+	<entity instancename="25796332-dec8-4bd7-acd1-644bfa59db0e" instanceid="25796332-dec8-4bd7-acd1-644bfa59db0e" name="DienstParameter" entityguid="dienstparameter">
+		<attribute name="DienstParameter.HoortBijDienst" source="USER">Dienst|4521fb9d-02c9-40bc-be71-1c4c4244d417|</attribute>
+		<attribute name="DienstParameter.Waarde" source="USER">N</attribute>
+		<attribute name="DienstParameter.Naam" source="USER">SysIntKoppelvlakZER</attribute>
+	</entity>
+	<entity instancename="3488fbde-7d74-43c9-95f2-8a8e0e15de7c" instanceid="3488fbde-7d74-43c9-95f2-8a8e0e15de7c" name="DienstParameter" entityguid="dienstparameter">
+		<attribute name="DienstParameter.HoortBijDienst" source="USER">Dienst|4521fb9d-02c9-40bc-be71-1c4c4244d417|</attribute>
+		<attribute name="DienstParameter.Waarde" source="USER">N</attribute>
+		<attribute name="DienstParameter.Naam" source="USER">SysIntKoppelvlakWBA</attribute>
+	</entity>
+	<entity instancename="9c264e49-35d3-4682-9829-dfae22fa7dd5" instanceid="9c264e49-35d3-4682-9829-dfae22fa7dd5" name="DienstParameter" entityguid="dienstparameter">
+		<attribute name="DienstParameter.HoortBijDienst" source="USER">Dienst|4521fb9d-02c9-40bc-be71-1c4c4244d417|</attribute>
+		<attribute name="DienstParameter.Waarde" source="USER">N</attribute>
+		<attribute name="DienstParameter.Naam" source="USER">SysIntKoppelvlakFinDos</attribute>
+	</entity>
+	<entity instanceid="94333b93-ca9a-4ecf-9606-a2aeb7f1377d" name="TelefoonNummer" entityguid="telefoonnummer">
+		<attribute name="TelefoonNummer.TelefoonNummer" source="USER">0230-912908</attribute>
+		<attribute name="TelefoonNummer.IsTelefoonNummerVanBetrokkene" source="USER">Betrokkene|3a36fc32-73b5-42fb-98ac-81fc31f77d5e|3a36fc32-73b5-42fb-98ac-81fc31f77d5e</attribute>
+		<attribute name="TelefoonNummer.EindDatum" source="USER"/>
+		<attribute name="TelefoonNummer.IndicatieZaakspecifiek" source="USER">N</attribute>
+		<attribute name="TelefoonNummer.Soort" source="USER">TELEFOON</attribute>
+		<attribute name="TelefoonNummer.BeginDatum" source="USER">1954-01-01</attribute>
+	</entity>
+	<entity instanceid="7ce76e0f-296a-457f-8612-97ac2db05eb2" name="Dienstverzoek" entityguid="dienstverzoek">
+		<attribute name="Dienstverzoek.HoortBijZaakActie" source="USER">ZaakActie|b17988a2-b0c0-4da3-a10e-f1599f06d750|</attribute>
+		<attribute name="Dienstverzoek.HoortBijDienst" source="USER">Dienst|4521fb9d-02c9-40bc-be71-1c4c4244d417|</attribute>
+		<attribute name="Dienstverzoek.DienstaanbiederNaam" source="USER">Drenthe</attribute>
+		<attribute name="Dienstverzoek.VerzoekNummer" source="USER">19723000011000</attribute>
+		<attribute name="Dienstverzoek.Versie" source="USER">1</attribute>
+		<attribute name="Dienstverzoek.DienstaanbiederCode" source="USER">DRE</attribute>
+		<attribute name="Dienstverzoek.Status" source="USER">00</attribute>
+	</entity>
+	<entity instanceid="2a016b61-5987-40cb-8935-813db2c8f20d" name="Zoek" entityguid="zoek">
+		<attribute name="Zoek.Huisnummer" source="USER"/>
+	</entity>
+	<entity instanceid="91f76792-93c4-4f12-9a4d-3d6eb0b69708" name="Zaak" entityguid="zaak">
+		<attribute name="Zaak.NummerAanvrager" source="USER">10000064</attribute>
+		<attribute name="Zaak.HeeftZaakActie" source="USER">ZaakActie|b17988a2-b0c0-4da3-a10e-f1599f06d750|</attribute>
+		<attribute name="Zaak.Nummer" source="USER">19723000011000</attribute>
+		<attribute name="Zaak.Status" source="USER">10</attribute>
+	</entity>
+	<entity instancename="system" instanceid="2f4a1839-ba79-4db4-ac16-4b37b88f383d" name="system" entityguid="c5a9c11a-83df-4d74-84be-7c42f8e1b43b">
+		<attribute name="system.privileges" source="USER">
+			<value>ROLE_ANONYMOUS</value>
+		</attribute>
+		<attribute name="system.authorizationroles" source="USER">
+			<value>ROLE_ANONYMOUS</value>
+		</attribute>
+		<attribute name="system.roles" source="USER">
+			<value>ROLE_ANONYMOUS</value>
+		</attribute>
+		<attribute name="system.today" source="USER">2019-08-14</attribute>
+		<attribute name="system.pagevalid" source="USER">true</attribute>
+		<attribute name="system.channel" source="USER"/>
+		<attribute name="system.currentpage" source="USER">FoutAfhandeling</attribute>
+		<attribute name="system.language" source="USER">Nederlands</attribute>
+		<attribute name="system.event" source="USER"/>
+		<attribute name="system.user" source="USER">@User@|8aded811-2a70-4fab-996a-002e5787417b|</attribute>
+	</entity>
+	<entity instanceid="b9d881bb-68c0-4e08-8b7b-c7cf5669806e" name="BetrokkeneRekening" entityguid="betrokkenerekening">
+		<attribute name="BetrokkeneRekening.IBAN" source="USER">NL71RABO0316010324</attribute>
+		<attribute name="BetrokkeneRekening.IsBetrokkeneRekeningVanBetrokkene" source="USER">Betrokkene|3a36fc32-73b5-42fb-98ac-81fc31f77d5e|3a36fc32-73b5-42fb-98ac-81fc31f77d5e</attribute>
+		<attribute name="BetrokkeneRekening.EindDatum" source="USER"/>
+		<attribute name="BetrokkeneRekening.IndicatieZaakspecifiek" source="USER">N</attribute>
+		<attribute name="BetrokkeneRekening.BIC" source="USER">RABONL2U</attribute>
+		<attribute name="BetrokkeneRekening.FinancieelActief" source="USER">J</attribute>
+		<attribute name="BetrokkeneRekening.BeginDatum" source="USER">2010-05-04</attribute>
+	</entity>
+	<entity instancename="Verzoek1" instanceid="86246987-c184-40b0-8413-544e008c9b31" name="Verzoek" entityguid="verzoek">
+		<attribute name="Verzoek.HeeftComponenten" source="USER">
+			<value>Component|0a3b90c6-def8-4a78-bcb8-27dc2825abaa|Component0</value>
+			<value>Component|0be25c2c-11a5-4aff-b445-e80eb4a5fa88|Component9</value>
+		</attribute>
+		<attribute name="Verzoek.AanbiederCode" source="USER">DRE</attribute>
+		<attribute name="Verzoek.VerzoekNummer" source="USER">19723000011000</attribute>
+		<attribute name="Verzoek.Versie" source="USER">1</attribute>
+		<attribute name="Verzoek.FinancieelBedragAfgehandeld" source="USER">0.0</attribute>
+	</entity>
+	<entity instancename="b4e53d1e-c6ea-42c6-9004-d06a5814f911" instanceid="b4e53d1e-c6ea-42c6-9004-d06a5814f911" name="BezoekAdres" entityguid="bezoekadres">
+		<attribute name="BezoekAdres.IsBezoekAdresVanNatuurlijkPersonen" source="USER">NatuurlijkPersoon|55e1fbe0-47c6-47bc-b5f9-6cda03651494|55e1fbe0-47c6-47bc-b5f9-6cda03651494</attribute>
+		<attribute name="Adres.DatumIngang" source="USER">1953-10-19</attribute>
+		<attribute name="Adres.Plaats" source="USER">Plaats_8193460</attribute>
+		<attribute name="Adres.LocatieType" source="USER">Binnenlands</attribute>
+		<attribute name="Adres.Postcode" source="USER">9951TD</attribute>
+		<attribute name="Adres.Huisnummer" source="USER">1</attribute>
+		<attribute name="Adres.KixCode" source="USER">9951TD1</attribute>
+		<attribute name="Adres.Straatnaam" source="USER">Straat_2634116</attribute>
+		<attribute name="Adres.Gemeente" source="USER">Plaats_1348219</attribute>
+	</entity>
+	<entity instanceid="8aded811-2a70-4fab-996a-002e5787417b" name="@User@" entityguid="d6906285-bea8-486f-a6f8-c6cdacb88f52">
+		<attribute name="@User@.teams" source="USER"/>
+		<attribute name="@User@.roles" source="USER">
+			<value>ROLE_ANONYMOUS</value>
+		</attribute>
+		<attribute name="@User@.id" source="USER">anonymousUser</attribute>
+		<attribute name="@User@.userName" source="USER">anonymousUser</attribute>
+	</entity>
+	<entity instancename="04ec303c-7c0c-4c38-b682-c64df3a56f23" instanceid="04ec303c-7c0c-4c38-b682-c64df3a56f23" name="BetrokkeneVerzoek" entityguid="betrokkeneverzoek">
+		<attribute name="BetrokkeneVerzoek.HeeftBetrokkenen" source="USER">
+			<value>Betrokkene|3a36fc32-73b5-42fb-98ac-81fc31f77d5e|3a36fc32-73b5-42fb-98ac-81fc31f77d5e</value>
+		</attribute>
+		<attribute name="BetrokkeneVerzoek.VerzoekNummer" source="USER">19723000011000</attribute>
+		<attribute name="BetrokkeneVerzoek.Versie" source="USER">1</attribute>
+		<attribute name="BetrokkeneVerzoek.IndicatieMuteerbaar" source="USER">N</attribute>
+	</entity>
+	<entity instanceid="6c9064e0-6c30-4b7a-b19f-9486c0b41d62" name="Sessie" entityguid="sessie">
+		<attribute name="Sessie.GebruikerType" source="USER">M</attribute>
+		<attribute name="Sessie.GebruikerIDType" source="USER">SYS</attribute>
+		<attribute name="Sessie.SessieUUID" source="USER">21c53644-a013-4e18-989f-f225da7cc8a7</attribute>
+		<attribute name="Sessie.GebruikerID" source="USER">GULDENAARR</attribute>
+	</entity>
+	<entity instancename="49437b42-be70-4c3d-a776-42c4a92e6a11" instanceid="49437b42-be70-4c3d-a776-42c4a92e6a11" name="BetrokkeneRol" entityguid="betrokkenerol">
+		<attribute name="BetrokkeneRol.IsBetrokkeneRolVanBetrokkene" source="USER">Betrokkene|3a36fc32-73b5-42fb-98ac-81fc31f77d5e|3a36fc32-73b5-42fb-98ac-81fc31f77d5e</attribute>
+		<attribute name="BetrokkeneRol.Rol" source="USER">10</attribute>
+		<attribute name="BetrokkeneRol.BeginDatum" source="USER">2019-08-14</attribute>
+	</entity>
+	<entity instancename="55e1fbe0-47c6-47bc-b5f9-6cda03651494" instanceid="55e1fbe0-47c6-47bc-b5f9-6cda03651494" name="NatuurlijkPersoon" entityguid="natuurlijkpersoon">
+		<attribute name="NatuurlijkPersoon.DatumGeboorte" source="USER">1935-08-01</attribute>
+		<attribute name="NatuurlijkPersoon.NatuurlijkPersoonHoortBijBetrokkene" source="USER">Betrokkene|3a36fc32-73b5-42fb-98ac-81fc31f77d5e|3a36fc32-73b5-42fb-98ac-81fc31f77d5e</attribute>
+		<attribute name="NatuurlijkPersoon.Achternaam" source="USER">Naam_8008145</attribute>
+		<attribute name="NatuurlijkPersoon.Geslachtsaanduiding" source="USER">MAN</attribute>
+		<attribute name="NatuurlijkPersoon.VoorLetters" source="USER">MNM</attribute>
+		<attribute name="NatuurlijkPersoon.HeeftBezoekAdres" source="USER">BezoekAdres|b4e53d1e-c6ea-42c6-9004-d06a5814f911|b4e53d1e-c6ea-42c6-9004-d06a5814f911</attribute>
+		<attribute name="NatuurlijkPersoon.HeeftPostAdressen" source="USER">
+			<value>PostAdres|7cfbe1d0-fada-4ed6-b6e4-a0437fdc445a|7cfbe1d0-fada-4ed6-b6e4-a0437fdc445a</value>
+		</attribute>
+		<attribute name="NatuurlijkPersoon.BSN" source="USER">117272024</attribute>
+		<attribute name="NatuurlijkPersoon.HeeftBereikbaarheid" source="USER">
+			<value>Bereikbaarheid|bdf0f661-e801-494a-a05c-4161bf5b24e3|bdf0f661-e801-494a-a05c-4161bf5b24e3</value>
+			<value>Bereikbaarheid|313b95e1-6218-4ba9-b58f-61f54b6e5102|313b95e1-6218-4ba9-b58f-61f54b6e5102</value>
+		</attribute>
+		<attribute name="ZakenRelatie.HeeftRelatieRollen" source="USER">
+			<value>RelatieRol|0e8915e7-7e6f-4ef3-8e9d-4a3f00d6a584|0e8915e7-7e6f-4ef3-8e9d-4a3f00d6a584</value>
+			<value>RelatieRol|a6a64a2b-15de-405d-b0f5-b28de6019011|a6a64a2b-15de-405d-b0f5-b28de6019011</value>
+			<value>RelatieRol|10987bcc-423e-4819-88b4-77db9d3b3df9|10987bcc-423e-4819-88b4-77db9d3b3df9</value>
+			<value>RelatieRol|bc358409-c587-4ccd-8706-c0856a22a051|bc358409-c587-4ccd-8706-c0856a22a051</value>
+		</attribute>
+		<attribute name="ZakenRelatie.HeeftRekeningen" source="USER">
+			<value>Rekening|44c35456-6a7b-46dd-8ff6-d81f6db4b868|44c35456-6a7b-46dd-8ff6-d81f6db4b868</value>
+			<value>Rekening|a8e1f27d-0843-4da8-9aa2-3310c49584fa|a8e1f27d-0843-4da8-9aa2-3310c49584fa</value>
+		</attribute>
+		<attribute name="ZakenRelatie.IndicatieOnderzoek" source="USER">NEE</attribute>
+		<attribute name="ZakenRelatie.BRSNummer" source="USER">10000064</attribute>
+		<attribute name="ZakenRelatie.PartyId" source="USER">338165</attribute>
+	</entity>
+	<entity instancename="ComponentCriteriumOordeel1" instanceid="6d8ab4d9-c9c7-45de-998a-34419d77d46c" name="ComponentCriteriumOordeel" entityguid="componentcriteriumoordeel">
+		<attribute name="ComponentCriteriumOordeel.ProcesfaseReferentieIdOordeel" source="USER">80</attribute>
+		<attribute name="ComponentCriteriumOordeel.VolgnummerInBerekening" source="USER">7</attribute>
+		<attribute name="ComponentCriteriumOordeel.DocumentDefinitieCode" source="USER">7171-2</attribute>
+		<attribute name="ComponentCriteriumOordeel.ToetsWaarde" source="USER">6.0</attribute>
+		<attribute name="ComponentCriteriumOordeel.CriteriumToelichting" source="USER">Dit criterium wordt gebruikt om te bepalen of de noodzakelijke facturen aanwezig en volledig zijn</attribute>
+		<attribute name="ComponentCriteriumOordeel.Oordeel" source="USER">OK</attribute>
+		<attribute name="ComponentCriteriumOordeel.IndicatieOordeel" source="USER">N</attribute>
+		<attribute name="ComponentCriteriumOordeel.ProcesFaseReferentieIdAntwoord" source="USER">80</attribute>
+		<attribute name="ComponentCriteriumOordeel.CriteriumNaam" source="USER">Geldige facturen aanwezig</attribute>
+		<attribute name="ComponentCriteriumOordeel.IndicatieGespecialiseerd" source="USER">N</attribute>
+		<attribute name="ComponentCriteriumOordeel.VraagNiveau" source="USER">C</attribute>
+		<attribute name="ComponentCriteriumOordeel.HeeftGrondslagCriteriumOordelen" source="USER">
+			<value>GrondslagCriteriumOordeel|30954e05-ebdf-41d2-8357-aa7a25dddfd4|GrondslagCriteriumOordeel4</value>
+			<value>GrondslagCriteriumOordeel|9dfa1e13-9e76-4b3a-88a6-db71acd6b93d|GrondslagCriteriumOordeel7</value>
+		</attribute>
+		<attribute name="ComponentCriteriumOordeel.CriteriumCode" source="USER">FACTUUR</attribute>
+		<attribute name="ComponentCriteriumOordeel.AntwoordDataType" source="USER">ALFA</attribute>
+		<attribute name="ComponentCriteriumOordeel.IndicatieOordeelMuteerbaar" source="USER">J</attribute>
+		<attribute name="ComponentCriteriumOordeel.DocumentVerplicht" source="USER">J</attribute>
+		<attribute name="ComponentCriteriumOordeel.IndicatieGeldig" source="USER">J</attribute>
+		<attribute name="ComponentCriteriumOordeel.SoortCriteriumReferentieId" source="USER">60</attribute>
+		<attribute name="ComponentCriteriumOordeel.IsComponentCriteriumOordeelVanComponent" source="USER">Component|0a3b90c6-def8-4a78-bcb8-27dc2825abaa|Component0</attribute>
+		<attribute name="ComponentCriteriumOordeel.VolgnummerInProcesFase" source="USER">6</attribute>
+		<attribute name="ComponentCriteriumOordeel.IndicatieAntwoord" source="USER">N</attribute>
+		<attribute name="ComponentCriteriumOordeel.Vraag" source="USER">Zij alle facturen aanwezig en geldig?</attribute>
+	</entity>
+	<entity instancename="ComponentCriteriumOordeel2" instanceid="2756df45-8427-48e2-8cab-e4b85576ef19" name="ComponentCriteriumOordeel" entityguid="componentcriteriumoordeel">
+		<attribute name="ComponentCriteriumOordeel.ProcesfaseReferentieIdOordeel" source="USER">80</attribute>
+		<attribute name="ComponentCriteriumOordeel.VolgnummerInBerekening" source="USER">6</attribute>
+		<attribute name="ComponentCriteriumOordeel.DocumentDefinitieCode" source="USER">7171-2</attribute>
+		<attribute name="ComponentCriteriumOordeel.ToetsWaarde" source="USER">2.0</attribute>
+		<attribute name="ComponentCriteriumOordeel.CriteriumToelichting" source="USER">Een verzoek dient ondertekend te zijn met een geldig middel</attribute>
+		<attribute name="ComponentCriteriumOordeel.Oordeel" source="USER">OK</attribute>
+		<attribute name="ComponentCriteriumOordeel.IndicatieOordeel" source="USER">N</attribute>
+		<attribute name="ComponentCriteriumOordeel.ProcesFaseReferentieIdAntwoord" source="USER">80</attribute>
+		<attribute name="ComponentCriteriumOordeel.CriteriumNaam" source="USER">Verzoek moet ondertekend zijn</attribute>
+		<attribute name="ComponentCriteriumOordeel.IndicatieGespecialiseerd" source="USER">N</attribute>
+		<attribute name="ComponentCriteriumOordeel.VraagNiveau" source="USER">C</attribute>
+		<attribute name="ComponentCriteriumOordeel.CriteriumCode" source="USER">ONDERTEKEND</attribute>
+		<attribute name="ComponentCriteriumOordeel.AntwoordDataType" source="USER">ALFA</attribute>
+		<attribute name="ComponentCriteriumOordeel.IndicatieOordeelMuteerbaar" source="USER">J</attribute>
+		<attribute name="ComponentCriteriumOordeel.DocumentVerplicht" source="USER">J</attribute>
+		<attribute name="ComponentCriteriumOordeel.IndicatieGeldig" source="USER">J</attribute>
+		<attribute name="ComponentCriteriumOordeel.SoortCriteriumReferentieId" source="USER">60</attribute>
+		<attribute name="ComponentCriteriumOordeel.IsComponentCriteriumOordeelVanComponent" source="USER">Component|0a3b90c6-def8-4a78-bcb8-27dc2825abaa|Component0</attribute>
+		<attribute name="ComponentCriteriumOordeel.VolgnummerInProcesFase" source="USER">5</attribute>
+		<attribute name="ComponentCriteriumOordeel.IndicatieAntwoord" source="USER">N</attribute>
+		<attribute name="ComponentCriteriumOordeel.Vraag" source="USER">Is het verzoek ondertekend</attribute>
+	</entity>
+	<entity instancename="09c32e40-806d-457f-bab2-ee06c86705ca" instanceid="09c32e40-806d-457f-bab2-ee06c86705ca" name="BetrokkeneConfiguratie" entityguid="betrokkeneconfiguratie">
+		<attribute name="BetrokkeneConfiguratie.RolVerwacht" source="USER">10</attribute>
+		<attribute name="BetrokkeneConfiguratie.EmailVerwacht" source="USER">J</attribute>
+		<attribute name="BetrokkeneConfiguratie.RekeningVerwacht" source="USER">N</attribute>
+		<attribute name="BetrokkeneConfiguratie.TelefoonVerwacht" source="USER">N</attribute>
+		<attribute name="BetrokkeneConfiguratie.Meervoudig" source="USER">N</attribute>
+		<attribute name="BetrokkeneConfiguratie.RolVerplicht" source="USER">J</attribute>
+	</entity>
+	<entity instanceid="4521fb9d-02c9-40bc-be71-1c4c4244d417" name="Dienst" entityguid="dienst">
+		<attribute name="Dienst.VerzoekSoort" source="USER">50</attribute>
+		<attribute name="Dienst.HeeftDienstParameters" source="USER">
+			<value>DienstParameter|9c264e49-35d3-4682-9829-dfae22fa7dd5|9c264e49-35d3-4682-9829-dfae22fa7dd5</value>
+			<value>DienstParameter|f09aba3a-cb25-43b7-9c30-2164d6aba195|f09aba3a-cb25-43b7-9c30-2164d6aba195</value>
+			<value>DienstParameter|0fef0e3b-514b-4d51-b478-cdd5f9c642c2|0fef0e3b-514b-4d51-b478-cdd5f9c642c2</value>
+			<value>DienstParameter|25796332-dec8-4bd7-acd1-644bfa59db0e|25796332-dec8-4bd7-acd1-644bfa59db0e</value>
+			<value>DienstParameter|3488fbde-7d74-43c9-95f2-8a8e0e15de7c|3488fbde-7d74-43c9-95f2-8a8e0e15de7c</value>
+		</attribute>
+		<attribute name="Dienst.Verkort" source="USER">COMP_2G2BN</attribute>
+		<attribute name="Dienst.HeeftDienstverzoek" source="USER">Dienstverzoek|7ce76e0f-296a-457f-8612-97ac2db05eb2|</attribute>
+		<attribute name="Dienst.Naam" source="USER">COMP_2G2BN</attribute>
+	</entity>
+	<entity instancename="GrondslagCriteriumOordeel4" instanceid="30954e05-ebdf-41d2-8357-aa7a25dddfd4" name="GrondslagCriteriumOordeel" entityguid="grondslagcriteriumoordeel">
+		<attribute name="GrondslagCriteriumOordeel.VolgnummerInBerekening" source="USER">43</attribute>
+		<attribute name="GrondslagCriteriumOordeel.DocumentDefinitieCode" source="USER">CODE_ABC</attribute>
+		<attribute name="GrondslagCriteriumOordeel.CriteriumToelichting" source="USER">Er dient een factuur aanwezig te zijn, waarin het bewijs te vinden is van de gedane investering32</attribute>
+		<attribute name="GrondslagCriteriumOordeel.IndicatieOordeel" source="USER">N</attribute>
+		<attribute name="GrondslagCriteriumOordeel.CriteriumNaam" source="USER">Factuur aanwezigja</attribute>
+		<attribute name="GrondslagCriteriumOordeel.IndicatieGespecialiseerd" source="USER">N</attribute>
+		<attribute name="GrondslagCriteriumOordeel.ComponentCriteriumCode" source="USER">FACTUUR</attribute>
+		<attribute name="GrondslagCriteriumOordeel.CriteriumCode" source="USER">FACTUUR</attribute>
+		<attribute name="GrondslagCriteriumOordeel.AntwoordDatatype" source="USER">ALFA</attribute>
+		<attribute name="GrondslagCriteriumOordeel.IndicatieOordeelMuteerbaar" source="USER">J</attribute>
+		<attribute name="GrondslagCriteriumOordeel.DocumentVerplicht" source="USER">true</attribute>
+		<attribute name="GrondslagCriteriumOordeel.IndicatieGeldig" source="USER">J</attribute>
+		<attribute name="GrondslagCriteriumOordeel.IsGrondslagCriteriumOordeelVanComponentCriteriumOordeel" source="USER">ComponentCriteriumOordeel|6d8ab4d9-c9c7-45de-998a-34419d77d46c|ComponentCriteriumOordeel1</attribute>
+		<attribute name="GrondslagCriteriumOordeel.SoortCriteriumReferentieId" source="USER">60</attribute>
+		<attribute name="GrondslagCriteriumOordeel.IndicatieAntwoord" source="USER">N</attribute>
+		<attribute name="GrondslagCriteriumOordeel.Vraag" source="USER">Heeft u een factuur als bewijs voor deze grondslag33</attribute>
+	</entity>
+	<entity instancename="GrondslagCriteriumOordeel7" instanceid="9dfa1e13-9e76-4b3a-88a6-db71acd6b93d" name="GrondslagCriteriumOordeel" entityguid="grondslagcriteriumoordeel">
+		<attribute name="GrondslagCriteriumOordeel.VolgnummerInBerekening" source="USER">7</attribute>
+		<attribute name="GrondslagCriteriumOordeel.DocumentDefinitieCode" source="USER">7171-2</attribute>
+		<attribute name="GrondslagCriteriumOordeel.CriteriumToelichting" source="USER">Er dient een factuur aanwezig te zijn, waarin het bewijs te vinden is van de gedane investering</attribute>
+		<attribute name="GrondslagCriteriumOordeel.IndicatieOordeel" source="USER">N</attribute>
+		<attribute name="GrondslagCriteriumOordeel.CriteriumNaam" source="USER">Factuur aanwezig</attribute>
+		<attribute name="GrondslagCriteriumOordeel.IndicatieGespecialiseerd" source="USER">N</attribute>
+		<attribute name="GrondslagCriteriumOordeel.ComponentCriteriumCode" source="USER">FACTUUR</attribute>
+		<attribute name="GrondslagCriteriumOordeel.CriteriumCode" source="USER">FACTUUR</attribute>
+		<attribute name="GrondslagCriteriumOordeel.AntwoordDatatype" source="USER">ALFA</attribute>
+		<attribute name="GrondslagCriteriumOordeel.IndicatieOordeelMuteerbaar" source="USER">J</attribute>
+		<attribute name="GrondslagCriteriumOordeel.DocumentVerplicht" source="USER">true</attribute>
+		<attribute name="GrondslagCriteriumOordeel.IndicatieGeldig" source="USER">J</attribute>
+		<attribute name="GrondslagCriteriumOordeel.IsGrondslagCriteriumOordeelVanComponentCriteriumOordeel" source="USER">ComponentCriteriumOordeel|6d8ab4d9-c9c7-45de-998a-34419d77d46c|ComponentCriteriumOordeel1</attribute>
+		<attribute name="GrondslagCriteriumOordeel.SoortCriteriumReferentieId" source="USER">60</attribute>
+		<attribute name="GrondslagCriteriumOordeel.IndicatieAntwoord" source="USER">N</attribute>
+		<attribute name="GrondslagCriteriumOordeel.Vraag" source="USER">Heeft u een factuur als bewijs voor deze grondslag</attribute>
+	</entity>
+	<entity instanceid="1cfea690-eb47-49ca-8d0d-93b01b71d845" name="Sturing" entityguid="sturing">
+		<attribute name="Sturing.VolgendeActie" source="USER">VZ_Verzoek</attribute>
+	</entity>
+	<entity instancename="Component0" instanceid="0a3b90c6-def8-4a78-bcb8-27dc2825abaa" name="Component" entityguid="component">
+		<attribute name="Component.HeeftComponentCriteriumOordelen" source="USER">
+			<value>ComponentCriteriumOordeel|6d8ab4d9-c9c7-45de-998a-34419d77d46c|ComponentCriteriumOordeel1</value>
+			<value>ComponentCriteriumOordeel|2756df45-8427-48e2-8cab-e4b85576ef19|ComponentCriteriumOordeel2</value>
+		</attribute>
+		<attribute name="Component.Volgnummer" source="USER">0</attribute>
+		<attribute name="Component.Naam" source="USER">COMP2_N aam</attribute>
+		<attribute name="Component.IndicatieAanTeVragen" source="USER">J</attribute>
+		<attribute name="Component.EenheidReferentieId" source="USER">30</attribute>
+		<attribute name="Component.IndicatieVasteSetGrondslagen" source="USER">N</attribute>
+		<attribute name="Component.HeeftGrondslagDefinities" source="USER">
+			<value>GrondslagDefinitie|3f95f39a-3986-453c-986d-7a13967580a5|GrondslagDefinitie3</value>
+			<value>GrondslagDefinitie|ab091bc7-74a7-4c46-af6e-c556caeafff5|GrondslagDefinitie6</value>
+		</attribute>
+		<attribute name="Component.ComponentCode" source="USER">COMP2</attribute>
+		<attribute name="Component.IndicatieVerplicht" source="USER">J</attribute>
+		<attribute name="Component.IsComponentVanVerzoek" source="USER">Verzoek|86246987-c184-40b0-8413-544e008c9b31|Verzoek1</attribute>
+	</entity>
+	<entity instancename="Component9" instanceid="0be25c2c-11a5-4aff-b445-e80eb4a5fa88" name="Component" entityguid="component">
+		<attribute name="Component.Volgnummer" source="USER">9</attribute>
+		<attribute name="Component.Naam" source="USER">Comp1_naam</attribute>
+		<attribute name="Component.IndicatieAanTeVragen" source="USER">J</attribute>
+		<attribute name="Component.EenheidReferentieId" source="USER">30</attribute>
+		<attribute name="Component.IndicatieVasteSetGrondslagen" source="USER">N</attribute>
+		<attribute name="Component.ComponentCode" source="USER">COMP1</attribute>
+		<attribute name="Component.IndicatieVerplicht" source="USER">J</attribute>
+		<attribute name="Component.IsComponentVanVerzoek" source="USER">Verzoek|86246987-c184-40b0-8413-544e008c9b31|Verzoek1</attribute>
+	</entity>
+	<entity instancename="44c35456-6a7b-46dd-8ff6-d81f6db4b868" instanceid="44c35456-6a7b-46dd-8ff6-d81f6db4b868" name="Rekening" entityguid="rekening">
+		<attribute name="Rekening.DatumIngang" source="USER">1954-01-01</attribute>
+		<attribute name="Rekening.Nederlandsrekeningnummer" source="USER">316010324</attribute>
+		<attribute name="Rekening.TypeHerkomst" source="USER">RELATIE</attribute>
+		<attribute name="Rekening.Landcode" source="USER">NL</attribute>
+		<attribute name="Rekening.IsRekeningVanZakenRelatie" source="USER">NatuurlijkPersoon|55e1fbe0-47c6-47bc-b5f9-6cda03651494|55e1fbe0-47c6-47bc-b5f9-6cda03651494</attribute>
+		<attribute name="Rekening.DatumEinde" source="USER">2010-05-04</attribute>
+		<attribute name="Rekening.Soort" source="USER">BANK</attribute>
+	</entity>
+	<entity instancename="a8e1f27d-0843-4da8-9aa2-3310c49584fa" instanceid="a8e1f27d-0843-4da8-9aa2-3310c49584fa" name="Rekening" entityguid="rekening">
+		<attribute name="Rekening.DatumIngang" source="USER">2010-05-04</attribute>
+		<attribute name="Rekening.Nederlandsrekeningnummer" source="USER">316010324</attribute>
+		<attribute name="Rekening.TypeHerkomst" source="USER">RELATIE</attribute>
+		<attribute name="Rekening.IBAN" source="USER">NL71RABO0316010324</attribute>
+		<attribute name="Rekening.Landcode" source="USER">NL</attribute>
+		<attribute name="Rekening.IsRekeningVanZakenRelatie" source="USER">NatuurlijkPersoon|55e1fbe0-47c6-47bc-b5f9-6cda03651494|55e1fbe0-47c6-47bc-b5f9-6cda03651494</attribute>
+		<attribute name="Rekening.Soort" source="USER">BANK</attribute>
+		<attribute name="Rekening.BIC" source="USER">RABONL2U</attribute>
+	</entity>
+	<entity instancename="313b95e1-6218-4ba9-b58f-61f54b6e5102" instanceid="313b95e1-6218-4ba9-b58f-61f54b6e5102" name="Bereikbaarheid" entityguid="bereikbaarheid">
+		<attribute name="Bereikbaarheid.DatumIngang" source="USER">2016-11-07</attribute>
+		<attribute name="Bereikbaarheid.Soort" source="USER">FAX</attribute>
+		<attribute name="Bereikbaarheid.IsBereikbaarheidVanNatuurlijkPersoon" source="USER">NatuurlijkPersoon|55e1fbe0-47c6-47bc-b5f9-6cda03651494|55e1fbe0-47c6-47bc-b5f9-6cda03651494</attribute>
+	</entity>
+	<entity instancename="bdf0f661-e801-494a-a05c-4161bf5b24e3" instanceid="bdf0f661-e801-494a-a05c-4161bf5b24e3" name="Bereikbaarheid" entityguid="bereikbaarheid">
+		<attribute name="Bereikbaarheid.DatumIngang" source="USER">1954-01-01</attribute>
+		<attribute name="Bereikbaarheid.Waarde" source="USER">0230-912908</attribute>
+		<attribute name="Bereikbaarheid.LandnummerTelefoon" source="USER">31</attribute>
+		<attribute name="Bereikbaarheid.Soort" source="USER">TELEFOON</attribute>
+		<attribute name="Bereikbaarheid.IsBereikbaarheidVanNatuurlijkPersoon" source="USER">NatuurlijkPersoon|55e1fbe0-47c6-47bc-b5f9-6cda03651494|55e1fbe0-47c6-47bc-b5f9-6cda03651494</attribute>
+	</entity>
+	<entity instanceid="b17988a2-b0c0-4da3-a10e-f1599f06d750" name="ZaakActie" entityguid="zaakactie">
+		<attribute name="ZaakActie.Behandelaar" source="USER">SYSGULDENAARR</attribute>
+		<attribute name="ZaakActie.HoortBijZaak" source="USER">Zaak|91f76792-93c4-4f12-9a4d-3d6eb0b69708|</attribute>
+		<attribute name="ZaakActie.ModelActie" source="USER">INDIEN02</attribute>
+		<attribute name="ZaakActie.HeeftDienstverzoek" source="USER">Dienstverzoek|7ce76e0f-296a-457f-8612-97ac2db05eb2|</attribute>
+		<attribute name="ZaakActie.LaatsteWijzigingsDatum" source="USER">2019-08-14</attribute>
+		<attribute name="ZaakActie.Naam" source="USER">Indienen papieren verzoek</attribute>
+		<attribute name="ZaakActie.UUID" source="USER">b17988a2-b0c0-4da3-a10e-f1599f06d750</attribute>
+		<attribute name="ZaakActie.Actor" source="USER">20</attribute>
+		<attribute name="ZaakActie.InterneOpmerking" source="USER"/>
+		<attribute name="ZaakActie.OpmerkingAanKlant" source="USER"/>
+		<attribute name="ZaakActie.ProcesFase" source="USER">40</attribute>
+		<attribute name="ZaakActie.CreatieDatum" source="USER">2019-08-14</attribute>
+		<attribute name="ZaakActie.ID" source="USER">523008</attribute>
+		<attribute name="ZaakActie.Status" source="USER">10</attribute>
+		<attribute name="ZaakActie.Toelichting" source="USER">Wanneer een aanvraag elders is ingediend (GRG of GDI) dan wordt de aanvraag opgehaald.</attribute>
+	</entity>
+	<entity instancename="a6a64a2b-15de-405d-b0f5-b28de6019011" instanceid="a6a64a2b-15de-405d-b0f5-b28de6019011" name="RelatieRol" entityguid="relatierol">
+		<attribute name="RelatieRol.DatumIngang" source="USER">1954-01-01</attribute>
+		<attribute name="RelatieRol.IsRelatieRolVanZakenRelatie" source="USER">NatuurlijkPersoon|55e1fbe0-47c6-47bc-b5f9-6cda03651494|55e1fbe0-47c6-47bc-b5f9-6cda03651494</attribute>
+		<attribute name="RelatieRol.Waarde" source="USER">LBTP</attribute>
+		<attribute name="RelatieRol.DatumEinde" source="USER">2016-04-01</attribute>
+	</entity>
+	<entity instancename="10987bcc-423e-4819-88b4-77db9d3b3df9" instanceid="10987bcc-423e-4819-88b4-77db9d3b3df9" name="RelatieRol" entityguid="relatierol">
+		<attribute name="RelatieRol.DatumIngang" source="USER">2005-01-01</attribute>
+		<attribute name="RelatieRol.IsRelatieRolVanZakenRelatie" source="USER">NatuurlijkPersoon|55e1fbe0-47c6-47bc-b5f9-6cda03651494|55e1fbe0-47c6-47bc-b5f9-6cda03651494</attribute>
+		<attribute name="RelatieRol.Waarde" source="USER">MSW</attribute>
+	</entity>
+	<entity instancename="bc358409-c587-4ccd-8706-c0856a22a051" instanceid="bc358409-c587-4ccd-8706-c0856a22a051" name="RelatieRol" entityguid="relatierol">
+		<attribute name="RelatieRol.DatumIngang" source="USER">2005-01-01</attribute>
+		<attribute name="RelatieRol.IsRelatieRolVanZakenRelatie" source="USER">NatuurlijkPersoon|55e1fbe0-47c6-47bc-b5f9-6cda03651494|55e1fbe0-47c6-47bc-b5f9-6cda03651494</attribute>
+		<attribute name="RelatieRol.Waarde" source="USER">LBP</attribute>
+	</entity>
+	<entity instancename="0e8915e7-7e6f-4ef3-8e9d-4a3f00d6a584" instanceid="0e8915e7-7e6f-4ef3-8e9d-4a3f00d6a584" name="RelatieRol" entityguid="relatierol">
+		<attribute name="RelatieRol.DatumIngang" source="USER">1998-09-02</attribute>
+		<attribute name="RelatieRol.IsRelatieRolVanZakenRelatie" source="USER">NatuurlijkPersoon|55e1fbe0-47c6-47bc-b5f9-6cda03651494|55e1fbe0-47c6-47bc-b5f9-6cda03651494</attribute>
+		<attribute name="RelatieRol.Waarde" source="USER">PVE</attribute>
+		<attribute name="RelatieRol.DatumEinde" source="USER">2008-10-08</attribute>
+	</entity>
+</profile>

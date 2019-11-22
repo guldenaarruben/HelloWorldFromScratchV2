@@ -1,0 +1,1578 @@
+{ 
+   "entities":[ 
+      { 
+         "instanceid":"86246987-c184-40b0-8413-544e008c9b31",
+         "name":"Verzoek",
+         "attributes":[ 
+            { 
+               "name":"HeeftComponenten",
+               "value":[ 
+                  "Component|0a3b90c6-def8-4a78-bcb8-27dc2825abaa|Component0",
+                  "Component|0be25c2c-11a5-4aff-b445-e80eb4a5fa88|Component9"
+               ],
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"AanbiederCode",
+               "value":"DRE",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"VerzoekNummer",
+               "value":"19723000011000",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"Versie",
+               "value":"1",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"FinancieelBedragAfgehandeld",
+               "value":"0.0",
+               "values":[ 
+
+               ]
+            }
+         ]
+      },
+      { 
+         "instanceid":"0a3b90c6-def8-4a78-bcb8-27dc2825abaa",
+         "name":"Component",
+         "attributes":[ 
+            { 
+               "name":"FinancieelBedrag",
+               "value":"1.0",
+               "values":[ 
+
+               ],
+               "us":0
+            },
+            { 
+               "name":"HeeftComponentCriteriumOordelen",
+               "value":[ 
+                  "ComponentCriteriumOordeel|6d8ab4d9-c9c7-45de-998a-34419d77d46c|ComponentCriteriumOordeel1",
+                  "ComponentCriteriumOordeel|2756df45-8427-48e2-8cab-e4b85576ef19|ComponentCriteriumOordeel2"
+               ],
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"Volgnummer",
+               "value":"0",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"Waarde",
+               "value":"1.0",
+               "values":[ 
+
+               ],
+               "us":0
+            },
+            { 
+               "name":"GeselecteerdViaMenu",
+               "value":"false",
+               "values":[ 
+
+               ],
+               "us":0
+            },
+            { 
+               "name":"Naam",
+               "value":"COMP2_N aam",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"IndicatieAanTeVragen",
+               "value":"J",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"EenheidReferentieId",
+               "value":"30",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"IndicatieVasteSetGrondslagen",
+               "value":"N",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"HeeftGrondslagen",
+               "value":[ 
+                  "Grondslag|71074b94-140c-4e68-9d15-46074f861d07|"
+               ],
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"HeeftGrondslagDefinities",
+               "value":[ 
+                  "GrondslagDefinitie|3f95f39a-3986-453c-986d-7a13967580a5|GrondslagDefinitie3",
+                  "GrondslagDefinitie|ab091bc7-74a7-4c46-af6e-c556caeafff5|GrondslagDefinitie6"
+               ],
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"ComponentCode",
+               "value":"COMP2",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"OordeelFinancieelBedrag",
+               "value":"1.0",
+               "values":[ 
+
+               ],
+               "us":0
+            },
+            { 
+               "name":"IndicatieVerplicht",
+               "value":"J",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"IsComponentVanVerzoek",
+               "value":"Verzoek|86246987-c184-40b0-8413-544e008c9b31|Verzoek1",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"OordeelWaarde",
+               "value":"1.0",
+               "values":[ 
+
+               ],
+               "us":0
+            },
+            { 
+               "name":"IndicatieAangevraagd",
+               "value":"true",
+               "values":[ 
+
+               ],
+               "us":0
+            }
+         ]
+      },
+      { 
+         "instanceid":"0be25c2c-11a5-4aff-b445-e80eb4a5fa88",
+         "name":"Component",
+         "attributes":[ 
+            { 
+               "name":"FinancieelBedrag",
+               "value":"0.0",
+               "values":[ 
+
+               ],
+               "us":0
+            },
+            { 
+               "name":"HeeftComponentCriteriumOordelen",
+               "value":[ 
+
+               ],
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"Volgnummer",
+               "value":"9",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"Waarde",
+               "value":"0.0",
+               "values":[ 
+
+               ],
+               "us":0
+            },
+            { 
+               "name":"GeselecteerdViaMenu",
+               "value":"false",
+               "values":[ 
+
+               ],
+               "us":0
+            },
+            { 
+               "name":"Naam",
+               "value":"Comp1_naam",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"IndicatieAanTeVragen",
+               "value":"J",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"EenheidReferentieId",
+               "value":"30",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"IndicatieVasteSetGrondslagen",
+               "value":"N",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"HeeftGrondslagen",
+               "value":[ 
+
+               ],
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"HeeftGrondslagDefinities",
+               "value":[ 
+
+               ],
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"ComponentCode",
+               "value":"COMP1",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"OordeelFinancieelBedrag",
+               "value":"0.0",
+               "values":[ 
+
+               ],
+               "us":0
+            },
+            { 
+               "name":"IndicatieVerplicht",
+               "value":"J",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"IsComponentVanVerzoek",
+               "value":"Verzoek|86246987-c184-40b0-8413-544e008c9b31|Verzoek1",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"OordeelWaarde",
+               "value":"0.0",
+               "values":[ 
+
+               ],
+               "us":0
+            },
+            { 
+               "name":"IndicatieAangevraagd",
+               "value":"true",
+               "values":[ 
+
+               ],
+               "us":0
+            }
+         ]
+      },
+      { 
+         "instanceid":"6d8ab4d9-c9c7-45de-998a-34419d77d46c",
+         "name":"ComponentCriteriumOordeel",
+         "attributes":[ 
+            { 
+               "name":"FinancieelBedrag",
+               "value":"0.0",
+               "values":[ 
+
+               ],
+               "us":0
+            },
+            { 
+               "name":"ProcesfaseReferentieIdOordeel",
+               "value":"80",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"VolgnummerInBerekening",
+               "value":"7",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"DocumentDefinitieCode",
+               "value":"7171-2",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"ToetsWaarde",
+               "value":"6.0",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"CriteriumToelichting",
+               "value":"Dit criterium wordt gebruikt om te bepalen of de noodzakelijke facturen aanwezig en volledig zijn",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"Oordeel",
+               "value":"OK",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"IndicatieOordeel",
+               "value":"N",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"ProcesFaseReferentieIdAntwoord",
+               "value":"80",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"CriteriumNaam",
+               "value":"Geldige facturen aanwezig",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"IndicatieGespecialiseerd",
+               "value":"N",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"VraagNiveau",
+               "value":"C",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"HeeftGrondslagCriteriumOordelen",
+               "value":[ 
+                  "GrondslagCriteriumOordeel|30954e05-ebdf-41d2-8357-aa7a25dddfd4|GrondslagCriteriumOordeel4",
+                  "GrondslagCriteriumOordeel|9dfa1e13-9e76-4b3a-88a6-db71acd6b93d|GrondslagCriteriumOordeel7"
+               ],
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"CriteriumCode",
+               "value":"FACTUUR",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"AntwoordDataType",
+               "value":"ALFA",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"Waarde",
+               "value":"0.0",
+               "values":[ 
+
+               ],
+               "us":0
+            },
+            { 
+               "name":"IndicatieOordeelMuteerbaar",
+               "value":"J",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"DocumentVerplicht",
+               "value":"J",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"IndicatieGeldig",
+               "value":"J",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"SoortCriteriumReferentieId",
+               "value":"60",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"IsComponentCriteriumOordeelVanComponent",
+               "value":"Component|0a3b90c6-def8-4a78-bcb8-27dc2825abaa|Component0",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"VolgnummerInProcesFase",
+               "value":"6",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"IndicatieAntwoord",
+               "value":"N",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"Vraag",
+               "value":"Zij alle facturen aanwezig en geldig?",
+               "values":[ 
+
+               ]
+            }
+         ]
+      },
+      { 
+         "instanceid":"2756df45-8427-48e2-8cab-e4b85576ef19",
+         "name":"ComponentCriteriumOordeel",
+         "attributes":[ 
+            { 
+               "name":"FinancieelBedrag",
+               "value":"0.0",
+               "values":[ 
+
+               ],
+               "us":0
+            },
+            { 
+               "name":"ProcesfaseReferentieIdOordeel",
+               "value":"80",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"VolgnummerInBerekening",
+               "value":"6",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"DocumentDefinitieCode",
+               "value":"7171-2",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"ToetsWaarde",
+               "value":"2.0",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"CriteriumToelichting",
+               "value":"Een verzoek dient ondertekend te zijn met een geldig middel",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"Oordeel",
+               "value":"OK",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"IndicatieOordeel",
+               "value":"N",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"ProcesFaseReferentieIdAntwoord",
+               "value":"80",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"CriteriumNaam",
+               "value":"Verzoek moet ondertekend zijn",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"IndicatieGespecialiseerd",
+               "value":"N",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"VraagNiveau",
+               "value":"C",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"HeeftGrondslagCriteriumOordelen",
+               "value":[ 
+
+               ],
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"CriteriumCode",
+               "value":"ONDERTEKEND",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"AntwoordDataType",
+               "value":"ALFA",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"Waarde",
+               "value":"0.0",
+               "values":[ 
+
+               ],
+               "us":0
+            },
+            { 
+               "name":"IndicatieOordeelMuteerbaar",
+               "value":"J",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"DocumentVerplicht",
+               "value":"J",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"IndicatieGeldig",
+               "value":"J",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"SoortCriteriumReferentieId",
+               "value":"60",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"IsComponentCriteriumOordeelVanComponent",
+               "value":"Component|0a3b90c6-def8-4a78-bcb8-27dc2825abaa|Component0",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"VolgnummerInProcesFase",
+               "value":"5",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"IndicatieAntwoord",
+               "value":"N",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"Vraag",
+               "value":"Is het verzoek ondertekend",
+               "values":[ 
+
+               ]
+            }
+         ]
+      },
+      { 
+         "instanceid":"71074b94-140c-4e68-9d15-46074f861d07",
+         "name":"Grondslag",
+         "attributes":[ 
+            { 
+               "name":"FinancieelBedrag",
+               "value":"1.0",
+               "values":[ 
+
+               ],
+               "us":0
+            },
+            { 
+               "name":"GebaseerdOp",
+               "value":"GrondslagDefinitie|3f95f39a-3986-453c-986d-7a13967580a5|GrondslagDefinitie3",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"GrondslagCode",
+               "value":"C2_G1",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"Waarde",
+               "value":"1.0",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"DecimalenNauwkeurigheid",
+               "value":"1",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"Naam",
+               "value":"cg1 naam",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"IndicatieOpgevoerd",
+               "value":"J",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"IndicatieAanTeVragen",
+               "value":"N",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"UniekeSleutel",
+               "value":"1",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"Omschrijving",
+               "value":"C2_G1_oms1",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"EenheidReferentieId",
+               "value":"20",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"BehoordBijComponent",
+               "value":"Component|0a3b90c6-def8-4a78-bcb8-27dc2825abaa|Component0",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"FinancieelBedragPerEenheid",
+               "value":"1.0",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"IndicatieVerplicht",
+               "value":"J",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"OordeelWaarde",
+               "value":"1.0",
+               "values":[ 
+
+               ],
+               "us":0
+            },
+            { 
+               "name":"HeeftGrondslagCriteriumOordelen",
+               "value":[ 
+                  "GrondslagCriteriumOordeel|69712857-5517-4024-9796-ba74bd87f913|"
+               ],
+               "values":[ 
+
+               ]
+            }
+         ]
+      },
+      { 
+         "instanceid":"30954e05-ebdf-41d2-8357-aa7a25dddfd4",
+         "name":"GrondslagCriteriumOordeel",
+         "attributes":[ 
+            { 
+               "name":"VolgnummerInBerekening",
+               "value":"43",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"DocumentDefinitieCode",
+               "value":"CODE_ABC",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"CriteriumToelichting",
+               "value":"Er dient een factuur aanwezig te zijn, waarin het bewijs te vinden is van de gedane investering32",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"Oordeel",
+               "value":"ONBEKEND",
+               "values":[ 
+
+               ],
+               "us":0
+            },
+            { 
+               "name":"IndicatieOordeel",
+               "value":"N",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"CriteriumNaam",
+               "value":"Factuur aanwezigja",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"IndicatieGespecialiseerd",
+               "value":"N",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"ComponentCriteriumCode",
+               "value":"FACTUUR",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"CriteriumCode",
+               "value":"FACTUUR",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"AntwoordDatatype",
+               "value":"ALFA",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"Waarde",
+               "value":"0.0",
+               "values":[ 
+
+               ],
+               "us":0
+            },
+            { 
+               "name":"IndicatieOordeelMuteerbaar",
+               "value":"J",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"DocumentVerplicht",
+               "value":"true",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"IndicatieGeldig",
+               "value":"J",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"IsGrondslagCriteriumOordeelVanComponentCriteriumOordeel",
+               "value":"ComponentCriteriumOordeel|6d8ab4d9-c9c7-45de-998a-34419d77d46c|ComponentCriteriumOordeel1",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"SoortCriteriumReferentieId",
+               "value":"60",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"IndicatieAntwoord",
+               "value":"N",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"Vraag",
+               "value":"Heeft u een factuur als bewijs voor deze grondslag33",
+               "values":[ 
+
+               ]
+            }
+         ]
+      },
+      { 
+         "instanceid":"9dfa1e13-9e76-4b3a-88a6-db71acd6b93d",
+         "name":"GrondslagCriteriumOordeel",
+         "attributes":[ 
+            { 
+               "name":"VolgnummerInBerekening",
+               "value":"7",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"DocumentDefinitieCode",
+               "value":"7171-2",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"CriteriumToelichting",
+               "value":"Er dient een factuur aanwezig te zijn, waarin het bewijs te vinden is van de gedane investering",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"Oordeel",
+               "value":"ONBEKEND",
+               "values":[ 
+
+               ],
+               "us":0
+            },
+            { 
+               "name":"IndicatieOordeel",
+               "value":"N",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"CriteriumNaam",
+               "value":"Factuur aanwezig",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"IndicatieGespecialiseerd",
+               "value":"N",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"ComponentCriteriumCode",
+               "value":"FACTUUR",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"CriteriumCode",
+               "value":"FACTUUR",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"AntwoordDatatype",
+               "value":"ALFA",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"Waarde",
+               "value":"0.0",
+               "values":[ 
+
+               ],
+               "us":0
+            },
+            { 
+               "name":"IndicatieOordeelMuteerbaar",
+               "value":"J",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"DocumentVerplicht",
+               "value":"true",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"IndicatieGeldig",
+               "value":"J",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"IsGrondslagCriteriumOordeelVanComponentCriteriumOordeel",
+               "value":"ComponentCriteriumOordeel|6d8ab4d9-c9c7-45de-998a-34419d77d46c|ComponentCriteriumOordeel1",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"SoortCriteriumReferentieId",
+               "value":"60",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"IndicatieAntwoord",
+               "value":"N",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"Vraag",
+               "value":"Heeft u een factuur als bewijs voor deze grondslag",
+               "values":[ 
+
+               ]
+            }
+         ]
+      },
+      { 
+         "instanceid":"69712857-5517-4024-9796-ba74bd87f913",
+         "name":"GrondslagCriteriumOordeel",
+         "attributes":[ 
+            { 
+               "name":"VolgnummerInBerekening",
+               "value":"43",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"DocumentDefinitieCode",
+               "value":"CODE_ABC",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"ToetsWaarde",
+               "value":"37",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"CriteriumToelichting",
+               "value":"Er dient een factuur aanwezig te zijn, waarin het bewijs te vinden is van de gedane investering32",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"Oordeel",
+               "value":"ONBEKEND",
+               "values":[ 
+
+               ],
+               "us":0
+            },
+            { 
+               "name":"CriteriumNaam",
+               "value":"Factuur aanwezigja",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"CriteriumCode",
+               "value":"FACTUUR",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"AntwoordDatatype",
+               "value":"ALFA",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"Waarde",
+               "value":"0.0",
+               "values":[ 
+
+               ],
+               "us":0
+            },
+            { 
+               "name":"BehoordBijGrondslag",
+               "value":"Grondslag|71074b94-140c-4e68-9d15-46074f861d07|",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"IndicatieOordeelMuteerbaar",
+               "value":"J",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"DocumentVerplicht",
+               "value":"true",
+               "values":[ 
+
+               ],
+               "us":0
+            },
+            { 
+               "name":"IndicatieGeldig",
+               "value":"J",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"AntwoordAlfa",
+               "value":"infovragen1 grodnslag33",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"SoortCriteriumReferentieId",
+               "value":"60",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"KopieVan",
+               "value":"GrondslagDefinitieCriterium|eadad676-e624-4f9e-be7f-2944583b075c|GrondslagDefinitieCriterium5",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"Vraag",
+               "value":"Heeft u een factuur als bewijs voor deze grondslag33",
+               "values":[ 
+
+               ]
+            }
+         ]
+      },
+      { 
+         "instanceid":"3f95f39a-3986-453c-986d-7a13967580a5",
+         "name":"GrondslagDefinitie",
+         "attributes":[ 
+            { 
+               "name":"Omschrijving",
+               "value":"C2_G1_oms1",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"EenheidReferentieId",
+               "value":"20",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"Categorie",
+               "value":"Cat niet verplicht1",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"IsGrondslagDefinitieVanComponent",
+               "value":"Component|0a3b90c6-def8-4a78-bcb8-27dc2825abaa|Component0",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"GebruiktBijGrondslag",
+               "value":[ 
+                  "Grondslag|71074b94-140c-4e68-9d15-46074f861d07|"
+               ],
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"FinancieelBedragPerEenheid",
+               "value":"1.0",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"GrondslagCode",
+               "value":"C2_G1",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"IndicatieVerplicht",
+               "value":"J",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"DecimalenNauwkeurigheid",
+               "value":"1",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"IndicatieAanTeVragen",
+               "value":"N",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"HeeftGrondslagDefinitieCriteria",
+               "value":[ 
+                  "GrondslagDefinitieCriterium|eadad676-e624-4f9e-be7f-2944583b075c|GrondslagDefinitieCriterium5"
+               ],
+               "values":[ 
+
+               ]
+            }
+         ]
+      },
+      { 
+         "instanceid":"ab091bc7-74a7-4c46-af6e-c556caeafff5",
+         "name":"GrondslagDefinitie",
+         "attributes":[ 
+            { 
+               "name":"Omschrijving",
+               "value":"C2_G2_oms",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"EenheidReferentieId",
+               "value":"20",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"Categorie",
+               "value":"cat verplicht",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"IsGrondslagDefinitieVanComponent",
+               "value":"Component|0a3b90c6-def8-4a78-bcb8-27dc2825abaa|Component0",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"GebruiktBijGrondslag",
+               "value":[ 
+
+               ],
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"FinancieelBedragPerEenheid",
+               "value":"1.0",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"GrondslagCode",
+               "value":"C2_G2",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"IndicatieVerplicht",
+               "value":"J",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"DecimalenNauwkeurigheid",
+               "value":"0",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"IndicatieAanTeVragen",
+               "value":"J",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"HeeftGrondslagDefinitieCriteria",
+               "value":[ 
+                  "GrondslagDefinitieCriterium|ae8eb22b-e13f-410e-8632-f72a52a94e97|GrondslagDefinitieCriterium8"
+               ],
+               "values":[ 
+
+               ]
+            }
+         ]
+      },
+      { 
+         "instanceid":"eadad676-e624-4f9e-be7f-2944583b075c",
+         "name":"GrondslagDefinitieCriterium",
+         "attributes":[ 
+            { 
+               "name":"VolgnummerInBerekening",
+               "value":"43",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"CriteriumCode",
+               "value":"FACTUUR",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"AntwoordDatatype",
+               "value":"ALFA",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"DocumentDefinitieCode",
+               "value":"CODE_ABC",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"Toetswaarde",
+               "value":"37",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"IsGrondslagDefnitieCriteriumVanGrondslagDefinitie",
+               "value":"GrondslagDefinitie|3f95f39a-3986-453c-986d-7a13967580a5|GrondslagDefinitie3",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"CriteriumToelichting",
+               "value":"Er dient een factuur aanwezig te zijn, waarin het bewijs te vinden is van de gedane investering32",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"IndicatieOordeelMuteerbaar",
+               "value":"J",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"IndicatieGeldig",
+               "value":"J",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"CriteriumNaam",
+               "value":"Factuur aanwezigja",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"GebruiktIn",
+               "value":[ 
+                  "GrondslagCriteriumOordeel|69712857-5517-4024-9796-ba74bd87f913|"
+               ],
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"SoortCriteriumReferentieId",
+               "value":"60",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"ComponentCriteriumCode",
+               "value":"FACTUUR",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"Vraag",
+               "value":"Heeft u een factuur als bewijs voor deze grondslag33",
+               "values":[ 
+
+               ]
+            }
+         ]
+      },
+      { 
+         "instanceid":"ae8eb22b-e13f-410e-8632-f72a52a94e97",
+         "name":"GrondslagDefinitieCriterium",
+         "attributes":[ 
+            { 
+               "name":"VolgnummerInBerekening",
+               "value":"7",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"CriteriumCode",
+               "value":"FACTUUR",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"AntwoordDatatype",
+               "value":"ALFA",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"DocumentDefinitieCode",
+               "value":"7171-2",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"IsGrondslagDefnitieCriteriumVanGrondslagDefinitie",
+               "value":"GrondslagDefinitie|ab091bc7-74a7-4c46-af6e-c556caeafff5|GrondslagDefinitie6",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"CriteriumToelichting",
+               "value":"Er dient een factuur aanwezig te zijn, waarin het bewijs te vinden is van de gedane investering",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"IndicatieOordeelMuteerbaar",
+               "value":"J",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"IndicatieGeldig",
+               "value":"J",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"CriteriumNaam",
+               "value":"Factuur aanwezig",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"GebruiktIn",
+               "value":[ 
+
+               ],
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"SoortCriteriumReferentieId",
+               "value":"60",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"ComponentCriteriumCode",
+               "value":"FACTUUR",
+               "values":[ 
+
+               ]
+            },
+            { 
+               "name":"Vraag",
+               "value":"Heeft u een factuur als bewijs voor deze grondslag",
+               "values":[ 
+
+               ]
+            }
+         ]
+      }
+   ]
+}
