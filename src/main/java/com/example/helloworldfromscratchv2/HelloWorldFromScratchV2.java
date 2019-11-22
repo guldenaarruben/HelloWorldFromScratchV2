@@ -1,5 +1,6 @@
 package com.example.helloworldfromscratchv2;
 
+import nl.nl.rg.test.jsonexercises.JsonExercises;
 import nl.oca.pond.swan.Swan;
 
 import org.apache.logging.log4j.LogManager;
@@ -183,7 +184,7 @@ public class HelloWorldFromScratchV2 {
     public static final String ANSI_CYAN = "\u001B[36m";
     public static final String ANSI_WHITE = "\u001B[37m";
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Throwable{
 
         log.info("Main");
         System.out.println("test: HelloWorldFromScratch");
@@ -192,10 +193,10 @@ public class HelloWorldFromScratchV2 {
         System.out.println("used: https://www.jetbrains.com/help/idea/creating-and-running-your-first-java-application.html");
 
 
-        System.out.println ("svn");
-        System.out.println ("1) https://subversion.apache.org/quick-start");
+        System.out.println("svn");
+        System.out.println("1) https://subversion.apache.org/quick-start");
 
-        System.out.println ("svn://192.168.178.17");
+        System.out.println("svn://192.168.178.17");
 
 
         // svn quickstart
@@ -208,7 +209,6 @@ public class HelloWorldFromScratchV2 {
         // http://svnbook.red-bean.com/en/1.8/svn.serverconfig.svnserve.html
 
 
-
 // extra comment test svn
 
         oca_increment_and_decrement_operators();
@@ -216,7 +216,7 @@ public class HelloWorldFromScratchV2 {
         for_each_test();
         understanding_advanced_flow_control();
         oca_SearchSample();
-        oca_Strings () ;
+        oca_Strings();
         oca_Arrays();
         oca_ArraysList();
         oca_dateTime();
@@ -248,9 +248,11 @@ public class HelloWorldFromScratchV2 {
         other.helpOtherBirdSwim();
 
 
+        System.out.println("*** JSON ***************************************************");
+        JsonExercises testFileRead = new JsonExercises();
+        testFileRead.readJSON_file();
 
     }
-
 
 
 
