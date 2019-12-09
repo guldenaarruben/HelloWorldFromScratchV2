@@ -24,11 +24,16 @@ public class JsonExercises {
         // todo aanpassen voor verzoek
         BufferedReader reader = new BufferedReader(new FileReader(file));
         String json = "";
+        int count=0;
+
         try {
             StringBuilder sb = new StringBuilder();
             String line = reader.readLine();
 
+
             while (line != null) {
+                count++;
+                log.debug ("count: "+count+ "  Line:" + line );
                 sb.append(line);
                 sb.append("\n");
                 line = reader.readLine();

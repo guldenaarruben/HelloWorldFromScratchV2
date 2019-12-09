@@ -1,6 +1,7 @@
 package com.example.helloworldfromscratchv2;
 
 import nl.nl.rg.test.jsonexercises.JsonExercises;
+import nl.oca.pond.shore.Bird;
 import nl.oca.pond.swan.Swan;
 
 import org.apache.logging.log4j.LogManager;
@@ -243,14 +244,22 @@ public class HelloWorldFromScratchV2 {
         System.out.println("***************************************************************");
 
 
+        Bird bird1 = new Bird("from main");
+        bird1.fly();
+        log.info("before creation of Swan.other");
         Swan other = new Swan();
+        log.info("before creation of Swan.other2");
+        Swan other2 = new Swan();
         other.swim();
+        other2.swim();
         other.helpOtherBirdSwim();
+        log.debug("aantal instanties Swan: "+ other.getCount() );
+
 
 
         System.out.println("*** JSON ***************************************************");
-        JsonExercises testFileRead = new JsonExercises();
-        testFileRead.readJSON_file();
+        //JsonExercises testFileRead = new JsonExercises();
+        //testFileRead.readJSON_file();
 
     }
 
