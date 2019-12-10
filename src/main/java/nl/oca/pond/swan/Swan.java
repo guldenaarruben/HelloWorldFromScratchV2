@@ -20,8 +20,10 @@ public class Swan extends Bird {
     public void swim() {
 
         log.info("Swan.swim");
+        log.info("floatInWater ");
+
         floatInWater();
-        System.out.println(text);
+        log.info("Swan.swim.text: " + text);
 
     }
 

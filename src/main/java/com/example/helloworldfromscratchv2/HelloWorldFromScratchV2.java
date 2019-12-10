@@ -248,8 +248,9 @@ public class HelloWorldFromScratchV2 {
         System.out.println("\n\n");
         System.out.println("***************************************************************");
 
-
+        log.info("Bird bird1");
         Bird bird1 = new Bird("from main");
+        log.info("bird1.fly");
         bird1.fly();
         log.info("before creation of Swan.other");
         Swan other = new Swan();
