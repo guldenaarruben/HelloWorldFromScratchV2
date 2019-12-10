@@ -1,5 +1,6 @@
 package com.example.helloworldfromscratchv2;
 
+import nl.example.ocaexcersises.oca_Static;
 import nl.nl.rg.test.jsonexercises.JsonExercises;
 import nl.oca.pond.shore.Bird;
 import nl.oca.pond.swan.Swan;
@@ -163,7 +164,11 @@ import static nl.example.ocaexcersises.OcaexcersisesExtendOcaExcersises.*;
                 2) In the Run/Debug Configurations dialog, click the Add button and select JAR Application.
                 3) Name the new configuration: HelloWorldJar.
                 4) In the Path to JAR field, click the Browse button and specify the path to the JAR file on your computer.
-                5) Under Before launch, click the Add button, select Build Artifacts | HelloWorld:jar in the dialog that opens.
+                5) Under Before launch, click the Add button, select
+
+                Build Artifacts | HelloWorld:jar in the dialog that opens.
+
+                Directory: "META-INF" should be in the project root! + in the POM!
 
 
                 MAVEN: youtube: "Maven Tutorial for Beginners 1", etc
@@ -260,6 +265,8 @@ public class HelloWorldFromScratchV2 {
         System.out.println("*** JSON ***************************************************");
         //JsonExercises testFileRead = new JsonExercises();
         //testFileRead.readJSON_file();
+
+        //new oca_Static().mainStatic();
 
     }
 

@@ -18,7 +18,7 @@ public class JsonExercises {
     public void readJSON_file() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
         log.info("@Given ::JSON file" );
-        String file = "C:\\Dev\\Workspace\\Trunk\\test5v3\\HelloWorldFromScratchV2\\src\\main\\resources\\testdata\\profiel16b\\response001.json";
+        String file = "C:\\DEV\\Workspace\\Trunk\\oca_HWFS_v5\\HelloWorldFromScratchV2\\src\\main\\resources\\testdata\\profiel16b\\response001.json";
         //Toegevoegd tbv testen
 
         // todo aanpassen voor verzoek
@@ -48,11 +48,11 @@ public class JsonExercises {
             reader.close();
         }
 
-        log.info("result of reasJsonFile: \n" + json);
+        log.info("result of readJsonFile: \n" + json);
 
         //log.info("****json: " + json.toString());
-        //JSONObject tmpJsonobj1 = new JSONObject(json);
-        //log.info("****tmpJsonobj1: " + tmpJsonobj1);
+        JSONObject tmpJsonobj1 = new JSONObject(json);
+        log.info("****tmpJsonobj1: " + tmpJsonobj1);
 
 
 
