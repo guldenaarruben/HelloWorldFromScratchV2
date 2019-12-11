@@ -2,6 +2,7 @@ package com.example.helloworldfromscratchv2;
 
 import nl.example.ocaexcersises.oca_Static;
 import nl.nl.rg.test.jsonexercises.JsonExercises;
+import nl.oca.lambda.TraditionalSearch;
 import nl.oca.pond.shore.Bird;
 import nl.oca.pond.swan.Swan;
 
@@ -249,7 +250,7 @@ public class HelloWorldFromScratchV2 {
         System.out.println("***************************************************************");
 
         log.info("Bird bird1");
-        Bird bird1 = new Bird("from main");
+        Bird bird1 = new Bird("aanroep: from main");
         log.info("bird1.fly");
         bird1.fly();
         log.info("before creation of Swan.other");
@@ -262,12 +263,16 @@ public class HelloWorldFromScratchV2 {
         log.debug("aantal instanties Swan: "+ other.getCount() );
 
 
-
+        System.out.println("\n\n");
         System.out.println("*** JSON ***************************************************");
         //JsonExercises testFileRead = new JsonExercises();
         //testFileRead.readJSON_file();
 
         //new oca_Static().mainStatic();
+        System.out.println("\n\n");
+        System.out.println("*** LAMBDA's ***************************************************");
+        TraditionalSearch.mainTraditionalSearch(new String[0]);
+
 
     }
 
