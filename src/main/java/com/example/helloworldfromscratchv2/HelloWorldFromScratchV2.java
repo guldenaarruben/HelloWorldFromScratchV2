@@ -1,6 +1,8 @@
 package com.example.helloworldfromscratchv2;
 
 import nl.example.ocaexcersises.oca_Static;
+import nl.lambda.excersises.java7Solution;
+import nl.lambda.excersises.lambdaExcersisMain;
 import nl.nl.rg.test.jsonexercises.JsonExercises;
 import nl.oca.lambda.TraditionalSearch;
 import nl.oca.pond.shore.Bird;
@@ -273,8 +275,23 @@ public class HelloWorldFromScratchV2 {
         System.out.println("*** LAMBDA's ***************************************************");
         TraditionalSearch.mainTraditionalSearch(new String[0]);
 
+        System.out.println("\n\n");
+        System.out.println("*** LAMBDA's excersises************************************START");
+        lambdaExcersisMain.main(new String[0]);
 
-    }
+        System.out.println("\n\n");
+        System.out.println("*** LAMBDA's excersises************************************END");
+
+
+        System.out.println("\n\n");
+        System.out.println("*** LAMBDA's excersises***JAVA 7 solution****************START");
+        //java7Solution.main(new String[0]);
+        System.out.println("*** LAMBDA's excersises***JAVA 7 solution******************END");
+
+
+        }
+
+
 
 
 

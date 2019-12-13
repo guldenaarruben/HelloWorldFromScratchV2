@@ -29,10 +29,14 @@ public class TraditionalSearch {
     }
 
     private static void print(List<Animal> animals, CheckTrait checker) {
+
+        log.info("print: START");
         for(Animal animal : animals) {
+            log.info("For lus: " + animal.toString() + ", "+ animal.canHop() +", " + animal.canSwim());
             if (checker.test(animal))                   // the general check
-                System.out.print(animal + " ");
+                log.info("TRUE:" + animal + " ");
         }
         System.out.println();
+        log.info("print: END");
     }
 }
