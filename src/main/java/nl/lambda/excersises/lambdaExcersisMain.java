@@ -37,6 +37,7 @@ public class lambdaExcersisMain {
         log.info("\n\n: LAMBDA SORT: p-> true");
         printConditionally(people, p -> true);
 
+        // 3; print all elements in the list lastname startswith C
         log.info("\n\n: LAMBDA SORT: p-> p.getLastName().startsWith(\"C\")");
         printConditionally(people, p -> p.getLastName().startsWith("C"));
 
