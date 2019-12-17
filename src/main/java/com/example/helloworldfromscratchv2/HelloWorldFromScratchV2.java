@@ -4,6 +4,7 @@ import nl.example.ocaexcersises.oca_Static;
 import nl.lambda.excersises.java7Solution;
 import nl.lambda.excersises.lambdaExcersisMain;
 import nl.nl.rg.test.jsonexercises.JsonExercises;
+import nl.oca.lambda.PredicateSearch;
 import nl.oca.lambda.TraditionalSearch;
 import nl.oca.pond.shore.Bird;
 import nl.oca.pond.swan.Swan;
@@ -287,6 +288,12 @@ public class HelloWorldFromScratchV2 {
         System.out.println("*** LAMBDA's excersises***JAVA 7 solution****************START");
         //java7Solution.main(new String[0]);
         System.out.println("*** LAMBDA's excersises***JAVA 7 solution******************END");
+
+
+        System.out.println("\n\n");
+        System.out.println("*** LAMBDA's excersises*** PredicateSearch****************START");
+        PredicateSearch.mainPredicateSearch(new String[0]);
+        System.out.println("*** LAMBDA's excersises*** PredicateSearch******************END");
 
 
         }
