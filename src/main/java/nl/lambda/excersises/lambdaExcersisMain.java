@@ -13,7 +13,6 @@ public class lambdaExcersisMain {
 
     public static void main(String[] Args) {
 
-
         List<Person> people = Arrays.asList(
                 new Person("Charles", "Dickens", 68),
                 new Person("Lewis", "Caroll", 42),
@@ -54,7 +53,7 @@ public class lambdaExcersisMain {
     private static void printConditionally (List<Person> people, Condition condition) {
 
         log.info("Method:printConditionally\n");
-        log.info("Condition: "+condition);
+        log.info("Condition: "+condition.toString());
         for (Person p : people)
         {
             if (condition.test(p))

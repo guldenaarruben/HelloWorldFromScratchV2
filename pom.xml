@@ -15,6 +15,7 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <!-- <jaxb2-maven-plugin.version>2.4</jaxb2-maven-plugin.version> -->
         <!-- <cxf.version>3.2.0</cxf.version> -->
+        <junit.jupiter.verion>5.4.0</junit.jupiter.verion>
     </properties>
 
 
@@ -22,6 +23,20 @@
     <dependencies>
 
 
+
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <version>${junit.jupiter.verion}</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>${junit.jupiter.verion}</version>
+            <scope>test</scope>
+        </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api -->
      <dependency>
